@@ -1,22 +1,4 @@
 run cdnperfcalc.py
 run function hardata()
 
-------------------------------------------------------------------------------------------------------------
-Provider 	DomaiN-Name					CNAME				IPaddress		AS info
-------------------------------------------------------------------------------------------------------------
-Reliance	timesofindia.indiatimes.com a1521.g.akamai.net	124.124.252.11	RELIANCE-COMMUNICATIONS-IN 
-Airtel		timesofindia.indiatimes.com a1521.g.akamai.net	96.17.182.24	BBIL-AP BHARTI Airtel Ltd.,IN
-MTNL 		timesofindia.indiatimes.com a1521.g.akamai.net	202.159.216.178	MTNL-AP
-Reliance	www.espncricinfo.com 		a1850.g.akamai.net	124.124.252.9	RELIANCE-COMMUNICATIONS-IN
-Airtel		www.espncricinfo.com  		a1850.g.akamai.net	96.17.182.120	BBIL-AP BHARTI Airtel Ltd.,IN
-MTNL 		www.espncricinfo.com  		a1850.g.akamai.net	202.159.216.176	MTNL-AP
-Reliance	img6a.flixcart.com 			a1711.r.akamai.net	124.124.252.30	RELIANCE-COMMUNICATIONS-IN 
-Airtel		img6a.flixcart.com 			a1521.g.akamai.net	125.252.226.153	BBIL-AP BHARTI Airtel Ltd.,IN
-MTNL 		img6a.flixcart.com 			a1521.g.akamai.net	202.159.216.179	MTNL-AP
-Reliance	img.yatra.com 				a1683.b.akamai.net	124.124.252.11	RELIANCE-COMMUNICATIONS-IN 
-Airtel		img.yatra.com 				a1521.g.akamai.net	125.252.226.152	BBIL-AP BHARTI Airtel Ltd.,IN
-MTNL 		img.yatra.com 				a1521.g.akamai.net	202.159.216.137	MTNL-AP
-
-
-
 
