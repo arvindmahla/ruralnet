@@ -1,0 +1,18 @@
+All to be run in amitsingh
+Require file ipasmap2
+
+create folder tr
+run rtt.py (first run latsinfra this creates tr/<files>,then ping_gw with output redirected to ping_gw.csv simillarly for ping_linode)
+run rtt_main.py
+
+For Rajasthan
+run traceanalyse.py  
+In file traceanalyse.py change log_path variable
+
+
+Infra RTTs
+hoplen_lat_inside function in infra.py
+create infra folder
+run infra.py
+run stay.py
+
