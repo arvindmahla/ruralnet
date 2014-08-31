@@ -1,0 +1,27 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=Median Duration between Traceroutes for www.nation.co.ke
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Duration in hrs
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	1.49972222222	0	1.00055555556	1.00041666667	
+Paraswada	0	4.49666666667	4.50722222222	4.54611111111	
+Jaipur	0	0	0	0	
+Delhi	3.0825	0	3.00805555556	3.03111111111	
+Samanapur	3.00388888889	0	0	3.00027777778	
+Lamta	4.52763888889	0	4.51972222222	4.50986111111	
+Sikar	0	4.71736111111	4.50166666667	4.53666666667	
+Dindori	0	4.49861111111	4.49972222222	4.515	
+Hanumanpura	0	4.5	4.52569444444	4.50222222222	
+Amarpur	0	5.25013888889	4.50388888889	4.50097222222	

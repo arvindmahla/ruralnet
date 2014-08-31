@@ -1,0 +1,38 @@
+
+=cluster;reliance;airtel;idea;mtnl
+colors=light_green,red,yellow,med_blue
+=table
+title=Hop length for www.gov.za
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Hop length
+xlabel=Uraban/SemiUrban Location																								Rural Location				
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	airtel	idea	mtnl
+
+Delhi3G	0	15.2586750789	0	17.2294264339	
+Jaipur	0	0	13.0	0	
+Dindori	0	15.1130136986	20.079002079	23.1052631579	
+Delhi	13.0	15.0833333333	0	18.2307692308	
+Paraswada	0	15.0133333333	15.3225806452	22.6363636364	
+Samanapur	13.0298102981	0	0	22.6404494382	
+Lamta	13.0444444444	15.0093457944	0	20.9898989899	
+Sikar	0	15.1538461538	20.1923076923	21.8695652174	
+Hanumanpura	0	15.2608695652	22.9180327869	22.25	
+Amarpur	0	15.0	0	22.9	
+=yerrorbars
+Delhi3G	0	1.05792583738	0	0.866230933484	
+Jaipur	0	0	0.0	0	
+Dindori	0	0.842514476818	4.71274600289	2.18595364814	
+Delhi	0.0	0.399652626943	0	2.52638932036	
+Paraswada	0	0.114697670227	3.35421830492	1.61091319515	
+Samanapur	0.185315132762	0	0	1.78789431739	
+Lamta	0.294811092476	0.0962208424391	0	1.18487905443	
+Sikar	0	0.360801212294	1.31614912556	0.84977479503	
+Hanumanpura	0	0.486101734239	3.17931367976	2.04633819297	
+Amarpur	0	0.0	0	1.94679223339	

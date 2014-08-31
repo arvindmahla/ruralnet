@@ -1,0 +1,24 @@
+
+=cluster;inside;outside;overall
+colors=light_green,red,yellow
+=table
+title=Pervalence Parameter for Sikar
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Pervalance parameter
+xlabel=ISPs
+# stretch it out in x direction
+xscale=1
+=table
+#	inside	outside	overall
+
+airtel	0.529456800011	0.435526665534	0.529456800011	
+mtnl	0.0667166404805	0.350519886223	0.0538749181674	
+idea	0.115506771091	0.412532963538	0.0690336539736	
+=yerrorbars
+airtel	0.0394220744003	0.297052808554	0.0394220744003	
+mtnl	0.0213670671691	0.279922097585	0.0310949357955	
+idea	0.0527475544552	0.22008499827	0.0352154702954	

@@ -1,0 +1,37 @@
+
+=cluster;Reliance 1xEVDO;Airtel UMTS;Airtel EDGE
+=table
+=sortdata_ascend
+title=Improvement in Latencies for EdgecastCDN services
+yformat=%g%%
+rotateby=-45
+xlabelshift=0,-5
+legendx=right
+legendy=center
+min=-50
+max=80
+=nogridy
+ylabel=Improvement
+xlabel=Landmarks Using EdgecastCDN CDN
+# stretch it out in x direction
+xscale=1
+=table
+#   Reliance 1xEVDO	Airtel UMTS	Airtel EDGE
+
+www.discogs.com	35.788476012	41.505908122	
+www.break.com	35.8471202013	62.0146737455	37.0032163215	
+www.livechatinc.com	33.1942810824	
+www.steelhouse.com	39.1590651502	66.2492460657	39.108204914	
+www.wiredrive.com	33.2929481328	66.6034817709	38.1770156452	
+www.500px.com	30.7139156143	63.5882949039	42.2688075832	
+www.viagogo.com	27.4232120096	68.0746230781	45.6036503695	
+www.6waves.com	22.5325084962	43.1171342029	31.6526577847	
+=yerrorbars
+www.discogs.com	5.27532729796	18.2893508619	
+www.break.com	3.64058298073	6.94101262187	19.9018506305	
+www.livechatinc.com	5.37641557175	
+www.steelhouse.com	7.56631605692	5.68890932953	26.8386207767	
+www.wiredrive.com	8.17545253079	5.4375531836	22.3102609932	
+www.500px.com	3.51076110988	7.24864394728	20.5508357251	
+www.viagogo.com	4.19260770076	5.66730080068	25.4060417794	
+www.6waves.com	9.09462474284	9.02700770522	29.4592802636	

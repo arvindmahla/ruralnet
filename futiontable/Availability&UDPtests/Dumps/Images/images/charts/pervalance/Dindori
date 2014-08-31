@@ -1,0 +1,24 @@
+
+=cluster;inside;outside;overall
+colors=light_green,red,yellow
+=table
+title=Prevalence Parameter for Dindori
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Prevalence parameter
+xlabel=ISPs
+# stretch it out in x direction
+xscale=1
+=table
+#	inside	outside	overall
+
+idea	0.0208201681595	0.0194745988077	0.0159789325216	
+mtnl	0.0239261026409	0.022465520823	0.0136180673275	
+airtel	0.0133860874055	0.0172332014207	0.0116939286349	
+=yerrorbars
+idea	0.0553083908477	0.0556892317909	0.0562990179112	
+mtnl	0.0238121263895	0.0239482568453	0.0236263010538	
+airtel	0.0322598815574	0.0319097556771	0.0324552951741	

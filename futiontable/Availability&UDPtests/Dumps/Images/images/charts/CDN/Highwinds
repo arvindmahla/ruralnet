@@ -1,0 +1,33 @@
+
+=cluster;Reliance 1xEVDO;Airtel UMTS;Airtel EDGE;MTNL UMTS
+=table
+=sortdata_ascend
+title=Improvement in Latencies for Highwinds services
+yformat=%g%%
+rotateby=-45
+xlabelshift=0,-5
+legendx=right
+legendy=center
+min=-50
+max=80
+=nogridy
+ylabel=Improvement
+xlabel=Landmarks Using Highwinds CDN
+# stretch it out in x direction
+xscale=1
+=table
+#   Reliance 1xEVDO	Airtel UMTS	Airtel EDGE	MTNL UMTS
+
+wwww.blip.tv	15.6660961344	-178.264279454	-13.2131609988	33.6374729844	
+www.85play.com	25.0214587675	-185.400729211	-20.0784689024	32.2407077911	
+www.abcya.com	16.9504362337	-187.27264707	-10.1301855038	27.8278361926	
+www.internationaltaxreview.com	22.5635742041	52.6501878418	23.8240430073	25.2505567062	
+www.learnaboutpizza.com	24.1971550681	-229.602299451	-14.6661281785	-11.4849638486	
+www.sotic.net	0.000953036732423	-0.410017472321	-2.94487024917	-14.9729410706	
+=yerrorbars
+wwww.blip.tv	7.76204951859	104.062616987	33.8625260383	47.1104631327	
+www.85play.com	6.91460356568	74.7454036259	33.742092451	9.21326382635	
+www.abcya.com	4.73145543444	102.463032206	49.5527607031	6.67488280156	
+www.internationaltaxreview.com	4010.12991808	19.4666116381	27.2068703258	237.408840624	
+www.learnaboutpizza.com	7.55196605647	101.199750846	31.9001053713	9.87114948773	
+www.sotic.net	13.1228508245	106.339807561	48.7662167556	30.1726833971	

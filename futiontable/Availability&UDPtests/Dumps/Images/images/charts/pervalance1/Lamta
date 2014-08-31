@@ -1,0 +1,24 @@
+
+=cluster;inside;outside;overall
+colors=light_green,red,yellow
+=table
+title=Pervalence Parameter for Lamta
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Pervalance parameter
+xlabel=ISPs
+# stretch it out in x direction
+xscale=1
+=table
+#	inside	outside	overall
+
+airtel	0.184538823387	0.449540295822	0.1653717548	
+mtnl	0.0787238455921	0.362486759771	0.0458006690914	
+reliance	0.436366948479	0.927445177849	0.421804695357	
+=yerrorbars
+airtel	0.175820504541	0.27777719091	0.179040219491	
+mtnl	0.124263061557	0.245550993525	0.130130655744	
+reliance	0.220706040724	0.221263514909	0.241458276081	

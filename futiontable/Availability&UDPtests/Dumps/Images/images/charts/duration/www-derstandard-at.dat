@@ -1,0 +1,27 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=Median Duration between Traceroutes for www.derstandard.at
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Duration in hrs
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	1.49972222222	0	1.00055555556	1.00027777778	
+Paraswada	0	4.49666666667	4.50444444444	4.53430555556	
+Jaipur	0	0	0	0	
+Delhi	3.07305555556	0	3.00736111111	3.03305555556	
+Samanapur	3.00305555556	0	0	3.00027777778	
+Lamta	4.52111111111	0	4.51916666667	4.50708333333	
+Sikar	0	4.71625	4.50097222222	4.5225	
+Dindori	0	4.49888888889	4.49972222222	4.5125	
+Hanumanpura	0	4.5	4.52208333333	4.50222222222	
+Amarpur	0	5.25013888889	4.5025	4.50097222222	

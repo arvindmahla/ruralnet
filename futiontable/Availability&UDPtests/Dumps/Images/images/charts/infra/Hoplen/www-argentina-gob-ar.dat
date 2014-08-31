@@ -1,0 +1,38 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=#hops inside ISP network for www.argentina.gob.ar
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Hop length
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	0	0	6.49761526232	8.82913165266	
+Paraswada	0	5.04255319149	6.92105263158	7.14705882353	
+Jaipur	0	5.0	0	0	
+Delhi	3.0	0	7.04347826087	8.80555555556	
+Samanapur	3.0	0	0	7.25842696629	
+Lamta	3.0	0	7.00952380952	7.73	
+Sikar	0	5.57692307692	7.15789473684	7.125	
+Dindori	0	5.31302521008	6.69178082192	4.88275862069	
+Hanumanpura	0	5.46875	7.26086956522	7.75	
+Amarpur	0	0	7.0	7.45	
+=yerrorbars
+Delhi3G	0	0	1.63684058333	0.749560152652	
+Paraswada	0	0.201847510224	0.683704266146	0.732937399669	
+Jaipur	0	0.0	0	0	
+Delhi	0.0	0	0.203931119992	1.15034884671	
+Samanapur	0.0	0	0	0.814587369006	
+Lamta	0.0	0	0.0971241812113	0.834925146345	
+Sikar	0	0.494047406872	0.364642275278	0.85695682505	
+Dindori	0	0.5070081209	1.32708904065	2.07614845086	
+Hanumanpura	0	0.499022481958	0.486101734239	0.829156197589	
+Amarpur	0	0	0.0	0.804673846972	

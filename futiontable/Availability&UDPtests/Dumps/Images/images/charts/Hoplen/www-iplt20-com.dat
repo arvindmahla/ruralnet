@@ -1,0 +1,38 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=Hop length for www.iplt20.com
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Hop length
+xlabel=Uraban/SemiUrban Location																								Rural Location				
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	0	0	14.3782051282	16.1648648649	
+Jaipur	0	14.5789473684	14.5769230769	17.0181818182	
+Dindori	0	14.0	14.2857142857	17.25	
+Delhi	15.4705882353	0	14.0188679245	16.9285714286	
+Paraswada	0	13.4528301887	14.0	17.0	
+Samanapur	15.9722222222	0	0	17.0	
+Lamta	15.8965517241	0	14.0	17.0	
+Sikar	0	13.4146341463	14.3859649123	17.0588235294	
+Hanumanpura	0	14.7692307692	14.3461538462	17.3230769231	
+Amarpur	0	15.2857142857	14.0	17.0	
+=yerrorbars
+Delhi3G	0	0	0.783180143651	1.01734052239	
+Jaipur	0	1.89661560989	0.967672740416	0.863205634216	
+Dindori	0	1.78226557736	0.9583148475	0.433012701892	
+Delhi	0.499134198485	0	0.136058538697	0.923060570237	
+Paraswada	0	1.26738533009	0.0	0.0	
+Samanapur	0.164335549531	0	0	0.0	
+Lamta	0.304543478149	0	0.0	0.0	
+Sikar	0	0.492658777481	0.486822348264	0.235294117647	
+Hanumanpura	0	2.9782247204	0.475742956802	0.557679044935	
+Amarpur	0	1.97948663722	0.0	0.0	

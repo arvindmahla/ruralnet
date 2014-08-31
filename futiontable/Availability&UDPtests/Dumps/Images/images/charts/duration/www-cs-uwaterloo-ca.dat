@@ -1,0 +1,28 @@
+
+=cluster;reliance;airtel;idea;mtnl
+colors=light_green,red,yellow,med_blue
+=table
+title=Median Duration between Traceroutes for www.cs.uwaterloo.ca
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Duration in hrs
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	airtel	idea	mtnl
+
+Delhi3G	0	1.00736111111	3.00833333333	1.00416666667	
+Ukwa	0	4.51555555556	4.50319444444	4.50833333333	
+Paraswada	0	4.49916666667	4.50055555556	4.50611111111	
+Jaipur	0	4.50027777778	4.51847222222	4.67666666667	
+Delhi	3.00027777778	3.0	0	3.00027777778	
+Samanapur	4.50361111111	0	4.50055555556	4.50111111111	
+Lamta	4.50555555556	4.50666666667	0	4.50166666667	
+Sikar	0	4.49972222222	4.72083333333	4.51486111111	
+Dindori	0	4.50416666667	4.50111111111	4.50930555556	
+Hanumanpura	0	4.51416666667	4.5	5.82263888889	
+Amarpur	0	4.51333333333	4.50333333333	4.50694444444	

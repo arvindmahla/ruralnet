@@ -1,0 +1,38 @@
+
+=cluster;reliance;airtel;idea;mtnl
+colors=light_green,red,yellow,med_blue
+=table
+title=Hop length for 8.8.8.8
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Hop length
+xlabel=Uraban/SemiUrban Location																								Rural Location				
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	airtel	idea	mtnl
+
+Delhi3G	10.654822335	10.0208333333	0	10.6912280702	
+Jaipur	0	0	20.7777777778	0	
+Dindori	0	9.94845360825	10.0083333333	12.6774193548	
+Delhi	9.4	10.028340081	10.3007246377	11.0506329114	
+Paraswada	0	9.96024464832	10.3097112861	12.7344632768	
+Samanapur	9.95597484277	0	0	15.0	
+Lamta	10.4166666667	9.93939393939	0	12.8051948052	
+Sikar	0	0	17.5	0	
+Hanumanpura	0	0	8.66666666667	0	
+Amarpur	0	9.89380530973	10.802919708	13.0	
+=yerrorbars
+Delhi3G	2.21729235207	0.959374434491	0	1.13759992069	
+Jaipur	0	0	7.32996555665	0	
+Dindori	0	0.221109387521	2.46642735326	2.45786554101	
+Delhi	2.33238075794	0.209120187371	2.97455383031	1.31108935455	
+Paraswada	0	0.360441372432	2.58881810519	2.50481995701	
+Samanapur	2.46062300223	0	0	0.0	
+Lamta	2.32588095616	0.238606299212	0	2.70179815563	
+Sikar	0	0	1.5	0	
+Hanumanpura	0	0	4.10960933531	0	
+Amarpur	0	0.308086640452	2.66318347468	2.54872517153	

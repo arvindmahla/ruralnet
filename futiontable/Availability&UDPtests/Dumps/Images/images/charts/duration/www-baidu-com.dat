@@ -1,0 +1,27 @@
+
+=cluster;reliance;airtel;idea;mtnl
+colors=light_green,red,yellow,med_blue
+=table
+title=Median Duration between Traceroutes for www.baidu.com
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Duration in hrs
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	airtel	idea	mtnl
+
+Delhi3G	1.5	1.00083333333	0	1.00027777778	
+Paraswada	0	4.50027777778	4.49888888889	4.54875	
+Jaipur	0	0	0	0	
+Delhi	3.08763888889	3.00708333333	0	3.03569444444	
+Samanapur	3.00277777778	0	0	3.00027777778	
+Lamta	4.51638888889	4.50722222222	0	4.50486111111	
+Sikar	0	4.49972222222	4.71388888889	4.51972222222	
+Dindori	0	4.49972222222	4.49888888889	4.51097222222	
+Hanumanpura	0	4.51875	4.5	4.50208333333	
+Amarpur	0	4.50083333333	5.25013888889	4.50069444444	

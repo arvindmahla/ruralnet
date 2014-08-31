@@ -1,0 +1,27 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=Median Duration between Traceroutes for www.argentina.gob.ar
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Duration in hrs
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	1.5	0	0.824166666667	1.00027777778	
+Paraswada	0	4.49944444444	4.50263888889	4.535	
+Jaipur	0	0	0	0	
+Delhi	3.06694444444	0	3.00555555556	3.02847222222	
+Samanapur	3.00083333333	0	0	3.00027777778	
+Lamta	4.51430555556	0	4.50444444444	4.50194444444	
+Sikar	0	4.71680555556	4.49875	4.51888888889	
+Dindori	0	4.49944444444	4.5	4.5075	
+Hanumanpura	0	4.50013888889	4.50888888889	4.50208333333	
+Amarpur	0	5.25013888889	4.5	4.50083333333	

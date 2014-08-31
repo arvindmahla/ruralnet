@@ -1,0 +1,38 @@
+
+=cluster;Reliance 1xEVDO;Airtel UMTS;MTNL UMTS;Airtel EDGE
+=table
+=sortdata_ascend
+
+title=Number of Objects fetched
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+xlabelshift=0,-5
+=nogridy
+ylabel=Number of Objects fetched
+xlabel=Landmarks
+# stretch it out in x direction
+xscale=1
+=table
+#	Reliance 1xEVDO	Airtel UMTS	MTNL UMTS	Airtel EDGE
+
+irctc.co.in	51.6	55.5	56.0	53.8461538462	
+mponline.gov.in	78.0	73.1875	78.0	72.6923076923	
+nrega.nic.in	19.0	17.625	19.0	17.6153846154	
+jharkhand.gov.in	110.0	102.9375	110.0	108.363636364	
+uk.gov.in	85.0	79.75	85.0	78.0909090909	
+morth.nic.in	55.7	46.9375	46.9	51.0909090909	
+airindia.com	87.9	77.0625	88.0	89.2	
+passportindia.gov.in	32.0	28.0	32.0	25.5	
+incometaxindia.gov.in	68.0	59.625	68.0	68.0	
+=yerrorbars
+irctc.co.in	15.1208465371	2.62202212043	1.788854382	5.98518881967	
+mponline.gov.in	0.0	18.6387323536	0.0	20.7415770314	
+nrega.nic.in	0.0	4.34273819151	0.0	4.79644839019	
+jharkhand.gov.in	0.0	26.3378737515	0.0	1.06794001132	
+uk.gov.in	0.0	20.3331625676	0.0	24.38499742	
+morth.nic.in	5.74543296889	17.9494733558	15.3	16.9408304264	
+airindia.com	0.538516480713	28.7499320651	0.0	0.6	
+passportindia.gov.in	0.0	10.2164083709	0.0	10.5237825899	
+incometaxindia.gov.in	0.0	22.1581672302	0.0	0.0	

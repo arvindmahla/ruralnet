@@ -1,0 +1,28 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=Median Duration between Traceroutes for www.iitd.ac.in
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Duration in hrs
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	1.49972222222	3.00888888889	0.903611111111	0.798333333333	
+Ukwa	0	4.50333333333	4.51555555556	4.50833333333	
+Paraswada	0	4.50027777778	4.50027777778	4.50805555556	
+Jaipur	0	4.52027777778	4.50027777778	4.68111111111	
+Delhi	2.99972222222	0	2.99722222222	2.99972222222	
+Samanapur	3.01597222222	4.50055555556	0	3.0025	
+Lamta	4.50611111111	0	4.50888888889	4.50388888889	
+Sikar	0	4.72472222222	4.5	4.52111111111	
+Dindori	0	4.50083333333	4.50111111111	4.51416666667	
+Hanumanpura	0	4.5	4.52166666667	5.72	
+Amarpur	0	4.50652777778	4.50833333333	4.50361111111	

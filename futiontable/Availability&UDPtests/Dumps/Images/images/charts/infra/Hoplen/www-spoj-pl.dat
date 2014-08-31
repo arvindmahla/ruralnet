@@ -1,0 +1,38 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=#hops inside ISP network for www.spoj.pl
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Hop length
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	0	0	6.41955835962	8.81326781327	
+Paraswada	0	6.15217391304	6.93421052632	6.12121212121	
+Jaipur	0	6.0	0	0	
+Delhi	3.0	0	7.0	8.79487179487	
+Samanapur	3.0	0	0	6.38202247191	
+Lamta	3.0	0	6.99074074074	6.75	
+Sikar	0	5.27450980392	7.15384615385	6.0	
+Dindori	0	6.28862973761	6.88395904437	4.38271604938	
+Hanumanpura	0	7.39130434783	7.20930232558	6.57142857143	
+Amarpur	0	0	7.0	6.35	
+=yerrorbars
+Delhi3G	0	0	1.65397784361	0.764392379346	
+Paraswada	0	1.03140662298	0.694632169148	0.326373624675	
+Jaipur	0	0.0	0	0	
+Delhi	0.0	0	0.0	1.2644951801	
+Samanapur	0.0	0	0	0.485881984504	
+Lamta	0.0	0	0.214966421597	0.433012701892	
+Sikar	0	0.488231356784	0.360801212294	0.22086305215	
+Dindori	0	1.10184797856	0.81800266092	1.62972315482	
+Hanumanpura	0	0.765513776594	0.592909245767	0.728431359085	
+Amarpur	0	0	0.0	0.476969600708	

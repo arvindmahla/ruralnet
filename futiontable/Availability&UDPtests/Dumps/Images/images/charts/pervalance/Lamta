@@ -1,0 +1,24 @@
+
+=cluster;inside;outside;overall
+colors=light_green,red,yellow
+=table
+title=Prevalence Parameter for Lamta
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Prevalence parameter
+xlabel=ISPs
+# stretch it out in x direction
+xscale=1
+=table
+#	inside	outside	overall
+
+airtel	0.0478077484571	0.0584291004153	0.0478077484571	
+mtnl	0.0329659087748	0.0414912459253	0.0299291119372	
+reliance	0.0307343234323	
+=yerrorbars
+airtel	0.198557152825	0.196623371678	0.198557152825	
+mtnl	0.0976579692563	0.0975355065418	0.0981129616	
+reliance	0.0109323432344	

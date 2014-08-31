@@ -1,0 +1,27 @@
+
+=cluster;Reliance 1xEVDO;Airtel UMTS;Airtel EDGE;MTNL UMTS
+=table
+=sortdata_ascend
+title=Improvement in Latencies for Cloudfront services
+yformat=%g%%
+rotateby=-45
+xlabelshift=0,-5
+legendx=right
+legendy=center
+min=-50
+max=80
+=nogridy
+ylabel=Improvement
+xlabel=Landmarks Using Cloudfront CDN
+# stretch it out in x direction
+xscale=1
+=table
+#   Reliance 1xEVDO	Airtel UMTS	Airtel EDGE	MTNL UMTS
+
+www.imdb.com	33.3491049255	85.7377602009	60.829084182	56.0511237818	
+www.joomlart.com	0.000208217034182	13.3286869217	15.5546717201	-9.29906304751	
+www.ora.tv	33.5172225781	87.1778168234	58.4577412508	59.9888797456	
+=yerrorbars
+www.imdb.com	9.3431046121	7.92506359783	16.4229472964	10.8664184884	
+www.joomlart.com	9.47612889461	80.3188037357	33.0582872019	148.714561448	
+www.ora.tv	7.69409669857	8.09872985021	33.3634597621	3.67351458947	

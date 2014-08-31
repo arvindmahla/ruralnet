@@ -1,0 +1,24 @@
+
+=cluster;inside;outside;overall
+colors=light_green,red,yellow
+=table
+title=Prevalence Parameter for Amarpur
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Prevalence parameter
+xlabel=ISPs
+# stretch it out in x direction
+xscale=1
+=table
+#	inside	outside	overall
+
+idea	0.0343557586483	0.0270975407745	0.0217825048156	
+airtel	0.00795084684383	0.018533096704	0.00795084684383	
+mtnl	0.029295808015	0.0441874636061	0.0272916613543	
+=yerrorbars
+idea	0.0243703707325	0.0287383072822	0.027920332133	
+airtel	0.00282645454101	0.0148952994996	0.00282645454101	
+mtnl	0.0230577224841	0.0441289553764	0.0244971935022	

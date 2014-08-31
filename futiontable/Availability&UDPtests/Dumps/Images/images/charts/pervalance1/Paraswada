@@ -1,0 +1,24 @@
+
+=cluster;inside;outside;overall
+colors=light_green,red,yellow
+=table
+title=Pervalence Parameter for Paraswada
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Pervalance parameter
+xlabel=ISPs
+# stretch it out in x direction
+xscale=1
+=table
+#	inside	outside	overall
+
+idea	0.121651107953	0.237305874781	0.042435611219	
+mtnl	0.117640575594	0.312474181749	0.0404237643039	
+airtel	0.166871853711	0.394076312198	0.141322309481	
+=yerrorbars
+idea	0.091310830015	0.226039456603	0.0425700967738	
+mtnl	0.0650895152648	0.266475788293	0.0378213494677	
+airtel	0.0380691693611	0.301206442793	0.0415167240898	

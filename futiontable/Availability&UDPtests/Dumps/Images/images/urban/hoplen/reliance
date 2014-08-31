@@ -1,0 +1,49 @@
+
+=cluster;Delhi;Delhi3G
+=table
+=sortdata_ascend
+title=Hop length for reliance
+yformat=%g
+rotateby=-45
+xlabelshift=0,-5
+legendx=right
+legendy=center
+=nogridy
+ylabel=Hop length
+xlabel=Urban Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	Delhi	Delhi3G
+IIT-Delhi(Asia)	12.7837837838	0	
+nation-co-ke(Africa)	11.0	0	
+wikipedia(North-America)	15.9024390244	15.0	
+espncricinfo(Asia)	5.22826086957	7.10526315789	
+cs-waterloo(North-America)	16.1818181818	14.7368421053	
+nicta-au(Australia)	17.1866666667	0	
+argentina-gob-ar(South-America)	15.0	0	
+baidu-com(Asia)	11.6451612903	0	
+google(Asia)	11.4756097561	9.0310880829	
+timesofindia(Asia)	5.25806451613	7.05434782609	
+NDTV(Asia)	5.53191489362	7.13368983957	
+bundesregierung-de(Europe)	15.0	0	
+Ebay(Asia)	5.13541666667	7.20634920635	
+Linode(Asia)	12.1544117647	12.8781725888	
+gov-za(Africa)	13.0	0	
+=yerrorbars
+IIT-Delhi(Asia)	1.10612875296	0	
+nation-co-ke(Africa)	1.0	0	
+wikipedia(North-America)	3.83695050439	0.0	
+espncricinfo(Asia)	0.795411581586	3.19695145646	
+cs-waterloo(North-America)	1.6824323203	0.925777355476	
+nicta-au(Australia)	1.2295618009	0	
+argentina-gob-ar(South-America)	2.0	0	
+baidu-com(Asia)	3.032601216	0	
+google(Asia)	0.736266285274	0.959850677891	
+timesofindia(Asia)	0.914673992178	3.07819869134	
+NDTV(Asia)	2.692393255	3.18557725191	
+bundesregierung-de(Europe)	0.0	0	
+Ebay(Asia)	0.639332198252	3.24073966094	
+Linode(Asia)	0.526903781687	0.815696712984	
+gov-za(Africa)	0.0	0	
+

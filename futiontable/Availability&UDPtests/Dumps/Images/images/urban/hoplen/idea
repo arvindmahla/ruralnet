@@ -1,0 +1,49 @@
+
+=cluster;Dindori;Delhi;Jaipur
+=table
+=sortdata_ascend
+title=Hop length for idea
+yformat=%g
+rotateby=-45
+xlabelshift=0,-5
+legendx=right
+legendy=center
+=nogridy
+ylabel=Hop length
+xlabel=Urban Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	Dindori	Delhi	Jaipur
+IIT-Delhi(Asia)	14.4827586207	0	10.1908396947	
+nation-co-ke(Africa)	13.0335195531	0	
+wikipedia(North-America)	10.7366720517	0	9.55639097744	
+espncricinfo(Asia)	6.20856610801	6.40794223827	7.2196969697	
+cs-waterloo(North-America)	18.5992714026	18.8422939068	20.893129771	
+nicta-au(Australia)	18.1927710843	0	17.9389312977	
+argentina-gob-ar(South-America)	14.8361344538	17.0	
+baidu-com(Asia)	17.8174273859	18.0	
+google(Asia)	12.5208613728	10.3799283154	12.3759398496	
+timesofindia(Asia)	6.25551470588	6.44604316547	7.01503759398	
+NDTV(Asia)	6.24118738404	6.27636363636	7.14285714286	
+bundesregierung-de(Europe)	14.1265560166	11.0	
+Ebay(Asia)	5.8875502008	6.47252747253	7.20454545455	
+Linode(Asia)	13.4953642384	13.3745454545	13.015037594	
+gov-za(Africa)	20.079002079	13.0	
+=yerrorbars
+IIT-Delhi(Asia)	7.16780941303	0	6.54650364561	
+nation-co-ke(Africa)	2.13483855536	0	
+wikipedia(North-America)	2.7266641091	0	3.9857142148	
+espncricinfo(Asia)	2.66106508825	2.10457858021	2.54151706645	
+cs-waterloo(North-America)	1.49427548134	1.07939471273	1.14085750792	
+nicta-au(Australia)	1.2381924057	0	1.24640383584	
+argentina-gob-ar(South-America)	2.68093897675	0.0	
+baidu-com(Asia)	2.13736449667	0.0	
+google(Asia)	3.55071441804	1.59942597069	3.31004736981	
+timesofindia(Asia)	2.60495972642	2.12613968379	2.39982757027	
+NDTV(Asia)	2.74137055226	2.01539201117	2.54624257195	
+bundesregierung-de(Europe)	2.68207515613	0.0	
+Ebay(Asia)	2.54242561369	2.16536502692	2.51582457223	
+Linode(Asia)	2.00288989056	1.316222996	1.35992570787	
+gov-za(Africa)	4.71274600289	0.0	
+

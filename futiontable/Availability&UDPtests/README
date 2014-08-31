@@ -1,0 +1,129 @@
+*******************Buffer Measureemnt Tests*******************************************
+Folder Name : Buffer_Throughput
+Description : 
+The folder contains the scripts and stored procedures which can be used to find the following:
+- Buffer sizes : median, mean, max,min,std Dev.
+- Drain sizes : median, mean, max,min,std Dev.
+- UDP Throughput : median, mean, max,min,std Dev. of UDP throughputs in both directions, ie uplink and downlink
+- TCP  Throughput : mean, std Dev. of TCP throughputs in both directions, ie uplink and downlink 
+- BDP : mean and Std. Dev. of Bandwidth Delay product.
+
+Files to data mapping : 
+To get all the data, run the following command:
+	bash all_buffer_data.sh
+	
+The script call respective stored procedures and stores the required data into the files mentioned in the scripts.
+Following files contain the stored procedures which are being called :
+-BDP_ninety_percentile.sql : This file contains "ninety_bdp_percentile" procedure. 
+		Database : test
+		Command : CALL ninety_bdp_percentile('curl') for downlink BDP
+			  CALL ninety_bdp_percentile('iperfup') for uplink BDP
+		Output : mean,std Dev. values for Bandwidth Delay Product
+-ninety_percentile_buffertime.sql : Contains the code for ninety_percentile_downbuffertime() and ninety_percentile_upbuffertime() procedures.
+		Database : test
+		Command : CALL ninety_percentile_upbuffertime() - to get the uplink buffersize in seconds.
+			  CALL ninety_percentile_downbuffertime() - to get downlink buffersize in seconds.
+		Output :Average and Std. Dev. of the buffersize in terms of seconds in uplink and downlink direction
+	
+- ninety_percentile_downafterthroughput.sql : This file contains the codes for ninety_percentile_downafterthroughput_3g() and ninety_percentile_downafterthroughput_2g() procedures to find the downlink throughput 3G and 2G Networks respectively, after the buffers have been filled.
+		Database : test
+		Command : CALL ninety_percentile_downafterthroughput_3g()
+			  CALL ninety_percentile_downafterthroughput_2g()
+		Output	: average, min, max, median and std.Dev. of UDP throughput after the downlink buffers got filled.
+- ninety_percentile_downbuffersize.sql :  Contains the code for querying the downlink buffersizes. The procedures are ninety_percentile_2gdownbuffersize() and ninety_percentile_3gdownbuffersize() respectively.
+		Database : test
+		Command :  CALL ninety_percentile_2gdownbuffersize()
+			   CALL ninety_percentile_3gdownbuffersize()
+		Output : average, std dev, min and max of Downlink Buffersizes
+		
+- ninety_percentile_downthroughput : Code for finding downlink UDP throughput. The procedures inside the file are "ninety_percentile_downthroughput_3g()" and "ninety_percentile_downthroughput_2g()" before buffer filling.
+		Database : test
+		Command  : CALL ninety_percentile_downthroughput_3g()
+			   CALL ninety_percentile_downthroughput_2g()
+		Output   : Mean, min, max, median and Std. Deviation of UDP Downlink throughput before the buffers got filled.
+			   
+- ninety_percentile_drainsize.sql  : Contains the mysql stored procedure code used to find the drain sizes in the uplink and the downlink. 
+		Database : test
+		Command  : CALL ninety_percentile_up2drainsize() // To find uplink drain in 2g 
+			   CALL ninety_percentile_up3drainsize() // To find uplink drain in 3g
+			   CALL ninety_percentile_down2drainsize() // To find downlink drain in 2g
+			   CALL ninety_percentile_down3drainsize() // To find downlink drain in 3g
+		Output  :  mean, min , max and std.dev drainsizes 
+- ninety_percentile_tcpdown.sql	 :  The stored procedure to find out the TCP Downlink and Uplink thrpoughputs. 
+		Database  : measurements1
+		Command	  : CALL ninety_percentile_tcp('curl'); // for downlink
+			    CALL ninety_percentile_tcp('iperfup'); // for uplink
+		Output    : mean, min, max, median and std. Dev of TCP throughputs
+
+- ninety_percetile_upafterthroughput.sql  : Contains the stored procedure code for finding the uplink UDP throughput found during the buffer tests after the buffers where filled.
+		Database  : test
+		Command	  : CALL ninety_percentile_upafterthroughput_2g() // after throughput for 2G
+			    CALL ninety_percentile_upafterthroughput_3g() // after throughput for 3G
+		Output    : mean, min, max, median and Std. dev of UDP throughputs after the buffers where filled.
+- ninety_percentile_upbuffersize  : Contains the stored procedure code for getting the uplink buffersizes.
+		Database  : test
+		Command	  : CALL ninety_percentile_2gupbuffersize()
+			    CALL ninety_percentile_3gupbuffersize()
+		Output    : Mean, min, max, and std. Dev of uplink buffers
+- ninety_percentile_upthroughput  : Contains the stored procedure code for finding the uplink UDP throughput found during the buffer tests after the buffers where filled.
+		Database  : test
+		Command	  : CALL ninety_percentile_upthroughput_3g()
+			    CALL ninety_percentile_upthroughput_2g()
+		Output    : Mean, min, max, median and std. Dev of uplink UDP throughput
+
+		
+***************************************************************************************
+Availability 
+***************************************************************************************
+Folder Name: Availability
+Descrition:
+Contains scripts to find the overall and Daily availabilites. There are three files in the folder "AvailabilityRange.txt", "percentile_availability.sql" and "FindAvailability.sh".
+
+FindAvailability.sh : 
+It contains 6 queries. First three queries give the total connected time, dongle error time and signal unavailability time. With this we can calculate the overall availability of a node. The first query also gives the total number of days where there was a some availability. To calculate the availability follow the formula:
+	Availability = Total Connected Time / (NoofDaysof Connected time * 86400 - MAX(Dongleerrotime,NoSignalTime)
+	Query 4 gives the daily availability
+	Query 5 gives the median availability
+	Query 6 gives the 90 percentile availability
+	Query 5 and 6 uses the "percentile_availability" stored procedure.
+		Command : bash FindAvailability.sh
+		Output  : Calulates and produces the following outputs:
+			1 - Total connection time and the number of days with some connection (File:"AvailabilityData")
+			2 - Dongle Error Time - the time when some error occured with the dongle (File:"AvailabilityData")
+			3 - No Signal Availability time - The time when either the system was down or signal was unavailable due to system, dongle or signal problem (File:"AvailabilityData")
+			Using the first 3 we can find the Overall Availability for the given duration as per the formula mentioned above.
+			4 - Daily Average availability (File : "DailyAvailability")
+			5 - Midian Availability (File : "medianAvailability")
+			6 - Ninety Percentile Availability (File : "ninetyAvailability")
+		These values are written into respective files as mentioned in the brackets.
+			
+			
+Percentile_Availability.sql :
+Contains the code for finding the percentile  availability. With this we can find 90 percentile or median availability ( or any percentile availability).
+		Command : call percentile_availability(<NodeISPid>,<startDuration>,<endDuration>,<Percentile>);
+		Database: Measurements2
+		Arguments : NodeISPid - Id specifying the isp,location combination.( look at the database documentation )
+			    startDuration - The date from which Availability is needed
+			    endDuration -  The date in epoch till which Availability is needed
+			    Percentile - The integer value of what percentile is required. For eg: 50 for median
+		Output	: Percentile Availability
+
+AvailabilityRange.ttxt :
+The file that is read by FindAvailability.sh to find the availabilities. The file is of the following format : 
+	<NodeISPid>	<Location>	<ISP>	<Start_Epoch>	<End_Epoch>
+
+***************************************************************************************
+Dumps
+***************************************************************************************
+Foldername : Dumps
+Contains the graphs and Data used in the thesis and fusion tables. Also has the mysql dumps of the related tables and databases. Below are the list of files and folders with the description.
+Buffer : Contains the files of the outputs related to buffer size, drainsize, UDP throughputs and TCP throughputs obtained from running commands mentioned in the "Buffer_Throughput" section.
+Images : Images used in the thesis
+Oneway_latency_plot : Gnuplot file and the plots used to plot the oneway latency graph in the thesis
+Availability.sql : Sql dump containing the Measurement2 database and the tables required to find the availability ie, "charts_nodata and tables containing measurement node and ISP details"
+Buffer_UDP_BDP.sql : SQL Dump for database "test" which contains tables related to buffersizes and udp tests.
+TCPThroughput.sql : SQL Dump for database "Measurements1" with table charts_tcpanalysis that has the TCP throughput details.
+
+
+***************************************************************************************
+PS : It will good to combine all the databases into one with some changes in the scripts

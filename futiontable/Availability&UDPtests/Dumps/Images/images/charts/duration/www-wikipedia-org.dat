@@ -1,0 +1,28 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=Median Duration between Traceroutes for www.wikipedia.org
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Duration in hrs
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	1.49972222222	3.0075	0.906388888889	0.813888888889	
+Ukwa	0	4.50388888889	4.51555555556	4.5075	
+Paraswada	0	4.50027777778	4.50055555556	4.50652777778	
+Jaipur	0	4.51180555556	4.50027777778	4.65138888889	
+Delhi	2.99972222222	0	2.99777777778	2.99944444444	
+Samanapur	3.00986111111	4.50055555556	0	3.00222222222	
+Lamta	4.50527777778	0	4.50805555556	4.50319444444	
+Sikar	0	4.72055555556	4.5	4.51166666667	
+Dindori	0	4.50027777778	4.50083333333	4.51194444444	
+Hanumanpura	0	4.50027777778	4.51888888889	5.79166666667	
+Amarpur	0	4.50652777778	4.50638888889	4.50388888889	

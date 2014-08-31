@@ -1,0 +1,29 @@
+
+=cluster;Reliance 1xEVDO;Airtel UMTS;Airtel EDGE
+=table
+=sortdata_ascend
+title=Improvement in Latencies for faslty services
+yformat=%g%%
+rotateby=-45
+xlabelshift=0,-5
+legendx=right
+legendy=center
+min=-50
+max=80
+=nogridy
+ylabel=Improvement
+xlabel=Landmarks Using faslty CDN
+# stretch it out in x direction
+xscale=1
+=table
+#   Reliance 1xEVDO	Airtel UMTS	Airtel EDGE
+
+www.wanelo.com	24.8741527402	9.50265086094	0.0549321667933	
+www.disqus.com	-3.45632455324	-143.627288646	-24.1462676056	
+www.shopify.com	12.5018369036	68.7049291187	23.5287871435	
+www.foursquare.com	12.4995179321	62.3543484857	-0.0905505155377	
+=yerrorbars
+www.wanelo.com	63.679909002	36.8739390323	37.8004496949	
+www.disqus.com	13.4391393341	123.294310139	42.3366094477	
+www.shopify.com	3.45325437893	29.256198545	30.466044444	
+www.foursquare.com	8.5159555477	26.8991551459	36.9392483766	

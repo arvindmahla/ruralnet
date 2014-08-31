@@ -1,0 +1,22 @@
+nodeisp,district, ISP,count,average,min,max ,std dev
+7	Dindori	Airtel	122	3.608	2.207	6.018	1.047
+31	Dindori	MTNL	111	3.715	2.632	5.455	0.737
+84	Jaipur	IDEA	20	5.733	2.000	22.000	5.667
+86	Jaipur	MTNL	111	5.291	2.000	21.500	4.659
+50	New Delhi 2	Airtel	210	2.732	2.295	3.554	0.329
+54	New Delhi 2	MTNL	298	9.576	2.615	18.270	3.906
+56	New Delhi 2	Reliance	368	4.853	4.659	5.105	0.103
+58	New Delhi 3	Airtel	54	1.863	1.389	2.688	0.460
+33	Amarpur	MTNL	22	3.755	1.914	10.547	2.944
+9	Amarpur	Airtel	8	1.720	1.367	2.498	0.464
+12	Lamta	Airtel	17	1.922	1.535	2.220	0.229
+36	Lamta	MTNL	25	3.714	3.350	4.102	0.235
+48	Lamta	Reliance	26	1.380	1.367	1.438	0.024
+50	New Delhi 2	Airtel	439	1.471	1.367	1.584	0.071
+54	New Delhi 2	MTNL	463	1.379	1.367	2.083	0.074
+56	New Delhi 2	Reliance	441	1.367	1.367	1.396	0.002
+11	Paraswada	Airtel	5	2.131	1.777	2.472	0.266
+35	Paraswada	MTNL	11	3.951	2.013	16.064	3.890
+32	Samnapur	MTNL	91	3.072	2.025	4.385	0.740
+44	Samnapur	Reliance	393	1.374	1.367	1.477	0.018
+78	Sikar	MTNL	79	1.955	1.367	4.626	0.692

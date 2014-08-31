@@ -1,0 +1,38 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=Hop length for www.bundesregierung.de
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Hop length
+xlabel=Uraban/SemiUrban Location																								Rural Location				
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	0	0	18.0977917981	20.0961038961	
+Jaipur	0	11.0	0	0	
+Dindori	0	14.1265560166	17.9022801303	19.3509933775	
+Delhi	15.0	0	18.0	21.0588235294	
+Paraswada	0	11.9032258065	18.0128205128	20.125	
+Samanapur	15.0621621622	0	0	19.7272727273	
+Lamta	15.0444444444	0	18.0090909091	20.7878787879	
+Sikar	0	16.1960784314	18.1538461538	18.5526315789	
+Hanumanpura	0	16.703125	18.2608695652	20.2222222222	
+Amarpur	0	0	18.0	19.85	
+=yerrorbars
+Delhi3G	0	0	0.774125036279	0.712493619646	
+Jaipur	0	0.0	0	0	
+Dindori	0	2.68207515613	0.6534010344	1.94357040022	
+Delhi	0.0	0	0.0	1.74795975978	
+Paraswada	0	2.20002207286	0.112499543428	2.38156986041	
+Samanapur	0.44591318471	0	0	2.17802700922	
+Lamta	0.294811092476	0	0.0949118773537	1.68937695331	
+Sikar	0	1.4953471345	0.360801212294	1.56772326406	
+Hanumanpura	0	1.64582509228	0.486101734239	1.87247772737	
+Amarpur	0	0	0.0	1.55804364509	

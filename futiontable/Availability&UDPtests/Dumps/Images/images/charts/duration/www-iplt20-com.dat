@@ -1,0 +1,28 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=Median Duration between Traceroutes for www.iplt20.com
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Duration in hrs
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	0	3.00777777778	1.00666666667	1.00222222222	
+Ukwa	0	4.50361111111	4.51472222222	4.50888888889	
+Paraswada	0	4.50166666667	4.49972222222	4.50555555556	
+Jaipur	0	4.51333333333	4.50055555556	4.66833333333	
+Delhi	3.00027777778	0	3.00027777778	3.00027777778	
+Samanapur	4.50055555556	4.50055555556	0	4.50027777778	
+Lamta	4.505	0	4.50388888889	4.50138888889	
+Sikar	0	5.69708333333	4.5	4.50972222222	
+Dindori	0	4.50611111111	4.50291666667	4.51305555556	
+Hanumanpura	0	4.50027777778	4.515	5.88847222222	
+Amarpur	0	4.50472222222	4.51361111111	4.50805555556	

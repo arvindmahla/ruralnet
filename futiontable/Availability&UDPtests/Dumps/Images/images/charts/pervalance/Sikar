@@ -1,0 +1,24 @@
+
+=cluster;inside;outside;overall
+colors=light_green,red,yellow
+=table
+title=Prevalence Parameter for Sikar
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Prevalence parameter
+xlabel=ISPs
+# stretch it out in x direction
+xscale=1
+=table
+#	inside	outside	overall
+
+airtel	0.0161868449339	0.0288701767119	0.0161868449339	
+mtnl	0.0405956296739	0.0274900545595	0.0215763485523	
+idea	0.0433626653257	0.02867666383	0.0229861142187	
+=yerrorbars
+airtel	0.00708126563198	0.0161899126295	0.00708126563198	
+mtnl	0.0183388517307	0.0131152358354	0.00828067458636	
+idea	0.0189179023837	0.0178206346262	0.0115552038447	

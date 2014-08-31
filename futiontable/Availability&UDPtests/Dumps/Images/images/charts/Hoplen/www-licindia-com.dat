@@ -1,0 +1,38 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=Hop length for www.licindia.com
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Hop length
+xlabel=Uraban/SemiUrban Location																								Rural Location				
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	0	0	12.1980830671	13.1744791667	
+Jaipur	0	0	0	0	
+Dindori	0	12.0	12.0	13.0	
+Delhi	9.0	0	12.0	13.3225806452	
+Paraswada	0	11.5471698113	12.0	10.25	
+Samanapur	9.0	0	0	10.0	
+Lamta	9.0	0	12.0	12.0	
+Sikar	0	11.6341463415	12.375	12.0	
+Hanumanpura	0	11.7307692308	12.3703703704	12.2753623188	
+Amarpur	0	0	0	0	
+=yerrorbars
+Delhi3G	0	0	0.592063726603	0.996491104024	
+Jaipur	0	0	0	0	
+Dindori	0	0.0	0.0	0.0	
+Delhi	0.0	0	0.0	1.05912613931	
+Paraswada	0	0.568547893333	0.0	0.433012701892	
+Samanapur	0.0	0	0	0.0	
+Lamta	0.0	0	0.0	0.0	
+Sikar	0	2.69376966405	0.484122918276	0.0	
+Hanumanpura	0	2.68267507576	0.482903881867	0.446696666882	
+Amarpur	0	0	0	0	

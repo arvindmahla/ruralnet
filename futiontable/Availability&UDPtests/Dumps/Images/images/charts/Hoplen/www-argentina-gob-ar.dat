@@ -1,0 +1,38 @@
+
+=cluster;airtel;reliance;idea;mtnl
+colors=red,light_green,yellow,med_blue
+=table
+title=Hop length for www.argentina.gob.ar
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Hop length
+xlabel=Uraban/SemiUrban Location																								Rural Location				
+# stretch it out in x direction
+xscale=1
+=table
+#	airtel	reliance	idea	mtnl
+
+Delhi3G	13.4548335975	0	0	15.6358543417	
+Jaipur	0	0	17.0	0	
+Dindori	12.7842465753	0	14.8361344538	15.3586206897	
+Delhi	13.347826087	15.0	0	15.3783783784	
+Paraswada	13.3289473684	0	14.1595744681	14.9705882353	
+Samanapur	0	14.3841961853	0	14.7528089888	
+Lamta	13.6380952381	14.4888888889	0	16.01	
+Sikar	15.9473684211	0	16.2115384615	15.6666666667	
+Hanumanpura	13.7391304348	0	14.921875	13.5	
+Amarpur	13.1264367816	0	0	15.7	
+=yerrorbars
+Delhi3G	2.31937432049	0	0	2.29031639737	
+Jaipur	0	0	0.0	0	
+Dindori	1.98746718268	0	2.68093897675	2.88557855806	
+Delhi	2.03467112292	2.0	0	2.19768122705	
+Paraswada	1.98936751318	0	2.79552526747	2.44330169717	
+Samanapur	0	2.12088893108	0	2.63631040642	
+Lamta	2.74338619236	2.01794419284	0	2.98829382759	
+Sikar	3.84534830686	0	3.37602712839	2.84556184649	
+Hanumanpura	2.35385698846	0	2.59389118592	2.17944947177	
+Amarpur	2.0160539453	0	0	2.86530975638	

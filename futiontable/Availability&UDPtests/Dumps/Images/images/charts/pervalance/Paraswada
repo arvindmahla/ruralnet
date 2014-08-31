@@ -1,0 +1,24 @@
+
+=cluster;inside;outside;overall
+colors=light_green,red,yellow
+=table
+title=Prevalence Parameter for Paraswada
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Prevalence parameter
+xlabel=ISPs
+# stretch it out in x direction
+xscale=1
+=table
+#	inside	outside	overall
+
+idea	0.0192951264553	0.0120874788499	0.00859539899906	
+mtnl	0.0236374702467	0.0383062246488	0.0183904380896	
+airtel	0.00627908784449	0.0167962582465	0.00627908784449	
+=yerrorbars
+idea	0.0111363339728	0.0103361675445	0.00634114819168	
+mtnl	0.0381660931128	0.0490323569164	0.0201888294006	
+airtel	0.0049330842062	0.0119627192382	0.0049330842062	

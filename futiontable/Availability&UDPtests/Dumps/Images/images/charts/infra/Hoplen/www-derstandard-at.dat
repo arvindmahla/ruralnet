@@ -1,0 +1,38 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=#hops inside ISP network for www.derstandard.at
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Hop length
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	0	0	6.48407643312	8.85496183206	
+Paraswada	0	5.06451612903	6.9358974359	6.11764705882	
+Jaipur	0	5.0	0	0	
+Delhi	3.0	0	7.08333333333	8.89473684211	
+Samanapur	3.0	0	0	6.39772727273	
+Lamta	3.0	0	7.00909090909	6.76	
+Sikar	0	5.55769230769	7.10256410256	5.95454545455	
+Dindori	0	5.3755186722	6.66666666667	4.70588235294	
+Hanumanpura	0	5.32307692308	7.17391304348	6.66666666667	
+Amarpur	0	0	7.0	6.35	
+=yerrorbars
+Delhi3G	0	0	1.61641695266	0.572332454738	
+Paraswada	0	0.286110423562	0.685747647196	0.322189739709	
+Jaipur	0	0.0	0	0	
+Delhi	0.0	0	0.399652626943	0.502073263904	
+Samanapur	0.0	0	0	0.512120651784	
+Lamta	0.0	0	0.0949118773537	0.427083130081	
+Sikar	0	0.53397859142	0.495873836047	0.637984947619	
+Dindori	0	0.488522032893	1.33998341615	1.82889785355	
+Hanumanpura	0	0.46765182011	0.788624223792	0.666666666667	
+Amarpur	0	0	0.0	0.476969600708	

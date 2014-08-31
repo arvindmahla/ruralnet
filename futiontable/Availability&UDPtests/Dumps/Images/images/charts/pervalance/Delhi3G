@@ -1,0 +1,24 @@
+
+=cluster;inside;outside;overall
+colors=light_green,red,yellow
+=table
+title=Prevalence Parameter for Delhi3G
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Prevalence parameter
+xlabel=ISPs
+# stretch it out in x direction
+xscale=1
+=table
+#	inside	outside	overall
+
+idea	0.0169898418858	0.00715984342198	0.00759101398794	
+airtel	0.00305758844068	0.00406689740007	0.00239202392368	
+mtnl	0.00190884775123	0.00736868930483	0.00190884775123	
+=yerrorbars
+idea	0.00469460740741	0.00505958563049	0.00482164049363	
+airtel	0.00168316999168	0.00397680498588	0.000976824268959	
+mtnl	0.000601118253988	0.00484985839603	0.000601118253988	

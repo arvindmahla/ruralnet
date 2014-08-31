@@ -1,0 +1,38 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=#hops inside ISP network for www.gov.za
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Hop length
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	0	0	6.49683544304	8.88279301746	
+Paraswada	0	5.30107526882	6.93333333333	6.12121212121	
+Jaipur	0	5.0	0	0	
+Delhi	3.0	0	7.08333333333	8.97435897436	
+Samanapur	3.0	0	0	6.32954545455	
+Lamta	3.0	0	7.00934579439	6.75757575758	
+Sikar	0	5.61538461538	7.10256410256	6.10869565217	
+Dindori	0	5.48440748441	6.68835616438	3.98026315789	
+Hanumanpura	0	5.47540983607	7.26086956522	6.625	
+Amarpur	0	0	7.0	6.35	
+=yerrorbars
+Delhi3G	0	0	1.6157813835	0.5412907632	
+Paraswada	0	0.458725355004	0.69920589878	0.326373624675	
+Jaipur	0	0.0	0	0	
+Delhi	0.0	0	0.399652626943	0.158061897512	
+Samanapur	0.0	0	0	0.516139315872	
+Lamta	0.0	0	0.0962208424391	0.428549564355	
+Sikar	0	0.486504255411	0.495873836047	0.311256979636	
+Dindori	0	0.512084842513	1.29889364271	1.31023498664	
+Hanumanpura	0	0.499394957762	0.486101734239	0.695970545354	
+Amarpur	0	0	0.0	0.476969600708	

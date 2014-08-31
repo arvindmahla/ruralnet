@@ -1,0 +1,28 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=Median Duration between Traceroutes for www.espncricinfo.com
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Duration in hrs
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	0	3.00777777778	1.00652777778	1.00194444444	
+Ukwa	0	4.50305555556	4.51555555556	4.50805555556	
+Paraswada	0	4.50166666667	4.49944444444	4.50583333333	
+Jaipur	0	4.51583333333	4.50055555556	4.65611111111	
+Delhi	3.00027777778	0	3.00027777778	3.0	
+Samanapur	4.50361111111	4.50055555556	0	4.50111111111	
+Lamta	4.50527777778	0	4.50555555556	4.50166666667	
+Sikar	0	4.72027777778	4.49972222222	4.50888888889	
+Dindori	0	4.50097222222	4.50361111111	4.50861111111	
+Hanumanpura	0	4.50027777778	4.5125	5.85875	
+Amarpur	0	4.50444444444	4.51333333333	4.50694444444	

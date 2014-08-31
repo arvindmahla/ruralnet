@@ -1,0 +1,36 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=#hops inside ISP network for www.licindia.com
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Hop length
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	0	0	6.42172523962	10.84375	
+Paraswada	0	5.0	7.0	6.5	
+Sikar	0	4.9512195122	7.375	8.94	
+Delhi	3.77551020408	0	6.75	10.1935483871	
+Samanapur	4.0	0	0	6.0	
+Lamta	4.77777777778	0	7.0	9.0	
+Dindori	0	5.0	7.0	3.0	
+Hanumanpura	0	5.15384615385	7.24074074074	9.21739130435	
+Amarpur	0	0	0	0	
+=yerrorbars
+Delhi3G	0	0	1.67134491613	0.704570273879	
+Paraswada	0	0.0	0.0	0.866025403784	
+Sikar	0	1.01094545249	0.484122918276	0.42	
+Delhi	0.974476439699	0	0.9306295872	0.964510734692	
+Samanapur	1.0	0	0	0.0	
+Lamta	0.628539361055	0	0.0	0.0	
+Dindori	0	0.0	0.0	0.0	
+Hanumanpura	0	0.717490696391	0.980082860918	0.507039295204	
+Amarpur	0	0	0	0	

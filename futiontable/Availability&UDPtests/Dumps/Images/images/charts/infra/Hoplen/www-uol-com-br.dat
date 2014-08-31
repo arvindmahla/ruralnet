@@ -1,0 +1,38 @@
+
+=cluster;airtel;reliance;idea;mtnl
+colors=red,light_green,yellow,med_blue
+=table
+title=#hops inside ISP network for www.uol.com.br
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Hop length
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	airtel	reliance	idea	mtnl
+
+Delhi3G	6.44620253165	0	0	8.90190735695	
+Paraswada	6.92	0	7.06382978723	6.9375	
+Jaipur	0	0	8.0	0	
+Delhi	7.0	3.0	0	9.0	
+Samanapur	0	3.0	0	7.61797752809	
+Lamta	7.00970873786	3.0	0	7.70212765957	
+Sikar	7.15789473684	0	5.57692307692	7.31111111111	
+Dindori	6.71972318339	0	6.56133056133	4.63448275862	
+Hanumanpura	7.26086956522	0	6.78461538462	7.55555555556	
+Amarpur	7.0	0	0	7.35	
+=yerrorbars
+Delhi3G	1.64402008349	0	0	0.727933630329	
+Paraswada	0.688186021363	0	0.696625767819	1.05881714663	
+Jaipur	0	0	0.0	0	
+Delhi	0.0	0.0	0	0.0	
+Samanapur	0	0.0	0	1.00006312135	
+Lamta	0.0980534460035	0.0	0	1.02966413894	
+Sikar	0.364642275278	0	0.494047406872	0.961993814307	
+Dindori	1.25653664986	0	1.08134891932	1.92913699878	
+Hanumanpura	0.486101734239	0	0.83190805136	1.25707872211	
+Amarpur	0.0	0	0	1.15217186218	

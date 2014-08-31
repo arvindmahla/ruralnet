@@ -1,0 +1,21 @@
+
+=cluster;inside;outside;overall
+colors=light_green,red,yellow
+=table
+title=Pervalence Parameter for Samanapur
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Pervalance parameter
+xlabel=ISPs
+# stretch it out in x direction
+xscale=1
+=table
+#	inside	outside	overall
+mtnl	0.0621056154707	0.27527389953	0.032766678448	
+reliance	0.260799520096	0.898355712636	0.246281343667	
+=yerrorbars
+mtnl	0.024765735092	0.168101486807	0.0220009157049	
+reliance	0.122851955603	0.228314734046	0.140654603433	

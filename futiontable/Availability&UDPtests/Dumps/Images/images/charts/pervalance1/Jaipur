@@ -1,0 +1,21 @@
+
+=cluster;inside;outside;overall
+colors=light_green,red,yellow
+=table
+title=Pervalence Parameter for Jaipur
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Pervalance parameter
+xlabel=ISPs
+# stretch it out in x direction
+xscale=1
+=table
+#	inside	outside	overall
+airtel	0.588235294118	0.532026143791	0.588235294118	
+mtnl	0.185353583192	0.463170721886	0.185353583192	
+=yerrorbars
+airtel	0.0350755761177	0.271964546267	0.0350755761177	
+mtnl	0.0150949515847	0.252143373135	0.0150949515847	

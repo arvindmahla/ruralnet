@@ -1,0 +1,55 @@
+
+=cluster;Airtel UMTS;Airtel EDGE
+=table
+=sortdata_ascend
+title=PLT / AFT ratio
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+xlabelshift=0,-5
+=nogridy
+ylabel=PLT / AFT ratio
+xlabel=Landmarks
+# stretch it out in x direction
+xscale=1
+=table
+#	Reliance 1xEVDO	Airtel UMTS	MTNL UMTS	Airtel EDGE
+timesofindia.indiatimes.com	0.1667960042	0.166405892
+espncricinfo.com	0.3539140996	0.6236708504
+flipkart.com	0.6715472414	0.685857307
+youtube.com	0.5071702301	0.4246097852
+makemytrip.com	0.9254418718	0.9376157151
+yatra.com	0.3556504198	0.47537118
+incredibleindia.org	0.6418710956	0.8089526031
+irctc.co.in	0.2078626455	0.4003388902
+nrega.nic.in	0.9583988456	0.6334771238
+jharkhand.gov.in	0.5566196724	0.87065043
+uk.gov.in	0.6750779868	0.3338501437
+morth.nic.in	0.8747683963	0.3893058102
+airindia.com	0.5124787606	0.6327863408
+passportindia.gov.in	0.9609305661	0.8934455419
+=yerrorbars
+timesofindia.indiatimes.com	0.1113749802	0.0573319841
+espncricinfo.com	0.063013184	0.2490301682
+flipkart.com	0.1308819515	0.0541998563
+youtube.com	0.0632020953	0.0724994177
+makemytrip.com	0.07093716	0.0599617515
+yatra.com	0.0644619921	0.181603846
+incredibleindia.org	0.162940753	0.0703480362
+irctc.co.in	0.0590267363	0.2075807264
+nrega.nic.in	0.0198944744	0.1250137837
+jharkhand.gov.in	0.0730648458	0.0274593944
+uk.gov.in	0.112802984	0.2224462517
+morth.nic.in	0.0635919642	0.0468241628
+airindia.com	0.0860425891	0.0649466212
+passportindia.gov.in	0.0140555778	0.0535747154
+
+
+
+
+
+		
+		
+		
+

@@ -1,0 +1,32 @@
+
+=cluster;Reliance 1xEVDO;Airtel UMTS;Airtel EDGE;MTNL UMTS
+=table
+=sortdata_ascend
+title=Improvement in Latencies for Akamai services
+yformat=%g%%
+rotateby=-45
+xlabelshift=0,-5
+legendx=right
+legendy=center
+max=80
+=nogridy
+ylabel=Improvement
+xlabel=Landmarks Using Akamai CDN
+# stretch it out in x direction
+xscale=1
+=table
+#   Reliance 1xEVDO	Airtel UMTS	Airtel EDGE	MTNL UMTS
+
+www.adobe.com	74.1025719183	82.4911810837	55.5403717412	68.2235512608	
+www.flipkart.com	38.6806734663	33.4751150363	12.2802464088	47.6873830991	
+www.bbc.com	55.6344434666	75.1331379111	47.582966351	51.6127555425	
+www.nytimes.com	64.3429137073	81.0328277427	52.1322631276	63.1444194943	
+www.justdial.com	38.8723202957	28.7914008448	12.3313074311	25.0585060256	
+www.spiceworks.com	67.4955627931	79.7860629962	51.1966379861	81.287717134	
+=yerrorbars
+www.adobe.com	18.7828172088	5.24607506984	16.1676322513	12.1771682332	
+www.flipkart.com	27.8257240678	25.7797945295	39.6981660363	23.4269703126	
+www.bbc.com	19.6565978773	12.8396564447	28.3147333943	17.2910968967	
+www.nytimes.com	14.6902703871	6.91264585099	19.3232116066	17.7157577448	
+www.justdial.com	26.3910034032	27.9298703934	55.5399594474	32.8650904833	
+www.spiceworks.com	16.7178789953	6.02376369192	27.598078061	10.711329771	

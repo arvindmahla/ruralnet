@@ -1,0 +1,49 @@
+
+=cluster;Lamta;Samanapur
+=table
+=sortdata_ascend
+title=Hop length for reliance
+yformat=%g
+rotateby=-45
+xlabelshift=0,-5
+legendx=right
+legendy=center
+=nogridy
+ylabel=Hop length
+xlabel=Rural Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	Lamta	Samanapur
+IIT-Delhi(Asia)	13.5945945946	14.2	
+nation-co-ke(Africa)	12.0	12.2626262626	
+wikipedia(North-America)	13.8846153846	13.7373358349	
+espncricinfo(Asia)	5.93043478261	5.38127090301	
+cs-waterloo(North-America)	15.9043478261	15.6610738255	
+nicta-au(Australia)	16.9189189189	16.4034653465	
+argentina-gob-ar(South-America)	14.4888888889	14.3841961853	
+baidu-com(Asia)	15.6222222222	13.4429347826	
+google(Asia)	10.437037037	10.8970331588	
+timesofindia(Asia)	6.1981981982	5.35353535354	
+NDTV(Asia)	5.57657657658	5.37541528239	
+bundesregierung-de(Europe)	15.0444444444	15.0621621622	
+Ebay(Asia)	5.78260869565	5.24912891986	
+Linode(Asia)	12.4347826087	12.7317073171	
+gov-za(Africa)	13.0444444444	13.0298102981	
+=yerrorbars
+IIT-Delhi(Asia)	1.272568364	1.45279636699	
+nation-co-ke(Africa)	0.0	0.523891009288	
+wikipedia(North-America)	2.96033941761	2.87162054152	
+espncricinfo(Asia)	2.30960843333	2.01377789114	
+cs-waterloo(North-America)	1.38923759538	1.10637029187	
+nicta-au(Australia)	0.896792433678	1.65550024484	
+argentina-gob-ar(South-America)	2.01794419284	2.12088893108	
+baidu-com(Asia)	2.43391672357	3.07373234318	
+google(Asia)	1.51343321945	1.26361690102	
+timesofindia(Asia)	2.60221603351	1.89619394428	
+NDTV(Asia)	1.90092224914	1.92774641042	
+bundesregierung-de(Europe)	0.294811092476	0.44591318471	
+Ebay(Asia)	2.14590655291	1.51149749479	
+Linode(Asia)	0.524149023769	0.950593915605	
+gov-za(Africa)	0.294811092476	0.185315132762	
+

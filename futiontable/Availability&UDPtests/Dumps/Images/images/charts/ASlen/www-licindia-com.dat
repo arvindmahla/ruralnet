@@ -1,0 +1,36 @@
+
+=cluster;reliance;airtel;idea;mtnl
+colors=light_green,red,yellow,med_blue
+=table
+title=Number of ASs on path for www.licindia.com
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=#AS 
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	airtel	idea	mtnl
+
+Delhi3G	0	3.85658153242	3.58214285714	4.07480314961	
+Paraswada	0	4.0	4.49056603774	3.9	
+Sikar	0	3.94736842105	4.41463414634	3.98039215686	
+Delhi	2.85526315789	3.90654205607	0	2.96875	
+Samanapur	2.87037037037	0	0	4.0	
+Lamta	2.93333333333	4.0	0	4.0	
+Dindori	0	4.0	3.75	3.5	
+Hanumanpura	0	3.89090909091	4.61538461538	3.91428571429	
+Amarpur	0	0	3.3	4.0	
+=yerrorbars
+Delhi3G	0	0.465995884925	0.579749682085	0.53821935989	
+Paraswada	0	0.0	0.518438930718	0.3	
+Sikar	0	0.393858672292	0.882778588822	0.138648388468	
+Delhi	0.450261542954	0.572463283406	0	1.73176887531	
+Samanapur	0.335895502726	0	0	0.0	
+Lamta	0.249443825785	0.0	0	0.0	
+Dindori	0	0.0	0.829156197589	0.80622577483	
+Hanumanpura	0	0.593072961102	0.788226981997	0.499795876701	
+Amarpur	0	0	0.640312423743	0.0	

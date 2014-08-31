@@ -1,0 +1,40 @@
+
+=cluster;Reliance 1xEVDO;Airtel UMTS;MTNL UMTS;Airtel EDGE
+=table
+=sortdata_ascend
+
+title=Number of Objects fetched
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+xlabelshift=0,-5
+=nogridy
+ylabel=Number of Objects fetched
+xlabel=Landmarks
+# stretch it out in x direction
+xscale=1
+=table
+#	Reliance 1xEVDO	Airtel UMTS	MTNL UMTS	Airtel EDGE
+
+facebook.com	25.9	25.625	26.8	19.0769230769	
+timesofindia.indiatimes.com	432.9	247.5	447.9	191.636363636	
+google.co.in	14.6	14.0625	14.7	12.1538461538	
+youtube.com	80.4	60.5	70.5	53.1538461538	
+wikipedia.org	21.0	19.8125	19.0	19.4615384615	
+espncricinfo.com	138.7	180.8125	211.2	211.25	
+flipkart.com	84.2	70.4375	75.6	72.4615384615	
+makemytrip.com	73.7	51.3125	74.3	56.3333333333	
+yatra.com	82.2	69.125	82.8	76.25	
+incredibleindia.org	59.3	53.1875	55.0	50.5833333333	
+=yerrorbars
+facebook.com	0.830662386292	6.4311254847	0.4	7.57994863451	
+timesofindia.indiatimes.com	75.785816615	88.7947070495	86.8751402877	72.2209648827	
+google.co.in	1.01980390272	0.428478412525	0.781024967591	4.58838255139	
+youtube.com	15.6984075626	3.77491721764	17.6932190401	16.6864576775	
+wikipedia.org	0.0	4.59916772362	6.0	5.32938710021	
+espncricinfo.com	89.8443654327	50.5546965548	5.68858506133	31.665241196	
+flipkart.com	0.4	21.9544094375	24.5405786403	22.2282404737	
+makemytrip.com	19.7182656438	19.7601832924	13.7116738584	3.92286743198	
+yatra.com	4.5343136195	26.3530714529	2.4	11.2925122685	
+incredibleindia.org	3.66196668472	19.8595655479	18.0	22.3512055355	

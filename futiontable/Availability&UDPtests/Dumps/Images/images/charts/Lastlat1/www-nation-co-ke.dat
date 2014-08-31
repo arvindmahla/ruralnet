@@ -1,0 +1,38 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=Last Hop Latency for www.nation.co.ke
+yformat=%gms
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=latency in ms
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	0	0	1181.67480833	822.758086331	
+Paraswada	0	319.647366667	613.51908	771.273333333	
+Jaipur	0	0	0	0	
+Delhi	422.28675	0	244.6293125	590.331046875	
+Samanapur	387.285185811	0	0	843.906935484	
+Lamta	364.007515152	0	668.078708543	795.252733945	
+Sikar	0	0	0	0	
+Dindori	0	230.867667351	306.699420074	660.979931193	
+Hanumanpura	0	343.702976378	402.875692308	650.45352381	
+Amarpur	0	0	0	823.13575	
+=yerrorbars
+Delhi3G	0	0	862.77863475	930.166354018	
+Paraswada	0	29.1022790396	86.5428522363	117.730670787	
+Jaipur	0	0	0	0	
+Delhi	109.780272376	0	17.8654136056	283.698311366	
+Samanapur	168.243385094	0	0	237.321683557	
+Lamta	71.5997226504	0	180.203576946	188.912408574	
+Sikar	0	0	0	0	
+Dindori	0	114.129083806	400.587556819	514.421856842	
+Hanumanpura	0	88.6860275747	207.186653316	462.644625058	
+Amarpur	0	0	0	266.429243035	

@@ -1,0 +1,38 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=#hops inside ISP network for www.nation.co.ke
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Hop length
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	0	0	4.4	8.86363636364	
+Paraswada	0	5.5	6.33333333333	9.0	
+Jaipur	0	0	0	0	
+Delhi	3.0	0	6.75	8.81818181818	
+Samanapur	3.0	0	0	8.74193548387	
+Lamta	3.0	0	6.86419753086	8.94520547945	
+Sikar	0	0	0	0	
+Dindori	0	5.53072625698	5.96703296703	4.69879518072	
+Hanumanpura	0	5.52272727273	7.09677419355	9.0	
+Amarpur	0	0	0	8.875	
+=yerrorbars
+Delhi3G	0	0	2.83548937575	0.660265411197	
+Paraswada	0	0.5	1.88561808316	0.0	
+Jaipur	0	0	0	0	
+Delhi	0.0	0	0.433012701892	0.38569460792	
+Samanapur	0.0	0	0	0.620496260054	
+Lamta	0.0	0	0.342578689519	0.281406008002	
+Sikar	0	0	0	0	
+Dindori	0	0.499055004115	2.21607786118	2.32189650236	
+Hanumanpura	0	0.499483203996	0.465232422641	0.0	
+Amarpur	0	0	0	0.330718913883	

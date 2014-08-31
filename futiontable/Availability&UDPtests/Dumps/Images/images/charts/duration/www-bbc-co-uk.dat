@@ -1,0 +1,28 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=Median Duration between Traceroutes for www.bbc.co.uk
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Duration in hrs
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	1.49972222222	3.00833333333	0.90375	0.803333333333	
+Ukwa	0	4.50347222222	4.51555555556	4.50833333333	
+Paraswada	0	4.50027777778	4.50027777778	4.50680555556	
+Jaipur	0	4.51583333333	4.50055555556	4.67166666667	
+Delhi	2.99944444444	0	2.99694444444	2.99944444444	
+Samanapur	3.01416666667	4.50055555556	0	3.0025	
+Lamta	4.50555555556	0	4.50888888889	4.50319444444	
+Sikar	0	4.72444444444	4.5	4.51972222222	
+Dindori	0	4.50055555556	4.50111111111	4.51361111111	
+Hanumanpura	0	4.5	4.51986111111	5.72222222222	
+Amarpur	0	4.50611111111	4.5075	4.50375	

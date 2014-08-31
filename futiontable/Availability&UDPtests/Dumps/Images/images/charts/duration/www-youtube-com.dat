@@ -1,0 +1,28 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=Median Duration between Traceroutes for www.youtube.com
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Duration in hrs
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	0	3.00777777778	1.00652777778	1.00097222222	
+Ukwa	0	4.50361111111	4.51347222222	4.50638888889	
+Paraswada	0	4.50027777778	4.50027777778	4.505	
+Jaipur	0	4.51	4.50055555556	4.61027777778	
+Delhi	3.00027777778	0	3.0	3.0	
+Samanapur	4.50305555556	4.50055555556	0	4.50138888889	
+Lamta	4.50305555556	0	4.50361111111	4.50166666667	
+Sikar	0	4.72027777778	4.49986111111	4.50416666667	
+Dindori	0	4.50055555556	4.50430555556	4.50569444444	
+Hanumanpura	0	4.50027777778	4.50666666667	5.89277777778	
+Amarpur	0	4.50277777778	4.51194444444	4.50638888889	

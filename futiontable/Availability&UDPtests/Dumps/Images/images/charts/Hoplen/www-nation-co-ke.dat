@@ -1,0 +1,38 @@
+
+=cluster;reliance;airtel;idea;mtnl
+colors=light_green,red,yellow,med_blue
+=table
+title=Hop length for www.nation.co.ke
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Hop length
+xlabel=Uraban/SemiUrban Location																								Rural Location				
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	airtel	idea	mtnl
+
+Delhi3G	0	17.0784313725	0	17.7840909091	
+Jaipur	0	0	0	0	
+Dindori	0	11.2747252747	13.0335195531	14.4457831325	
+Delhi	11.0	11.0	0	13.4782608696	
+Paraswada	0	11.5555555556	16.0	16.0	
+Samanapur	12.2626262626	0	0	15.4838709677	
+Lamta	12.0	10.9259259259	0	15.1232876712	
+Sikar	0	0	0	0	
+Hanumanpura	0	10.064516129	12.75	13.7142857143	
+Amarpur	0	0	0	14.875	
+=yerrorbars
+Delhi3G	0	1.61904277281	0	1.29201097339	
+Jaipur	0	0	0	0	
+Dindori	0	1.83414461343	2.13483855536	3.69712689507	
+Delhi	1.0	0.0	0	1.17471792053	
+Paraswada	0	1.57134840264	1.788854382	0.0	
+Samanapur	0.523891009288	0	0	1.10339557268	
+Lamta	0.0	0.377705149155	0	0.701177199565	
+Sikar	0	0	0	0	
+Hanumanpura	0	1.16218603449	1.99003197782	1.48461497792	
+Amarpur	0	0	0	0.330718913883	

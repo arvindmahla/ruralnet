@@ -1,0 +1,31 @@
+
+=cluster;Reliance 1xEVDO;Airtel UMTS;Airtel EDGE;MTNL UMTS
+=table
+=sortdata_ascend
+title=Improvement in Latencies for limelight services
+yformat=%g%%
+rotateby=-45
+xlabelshift=0,-5
+legendx=right
+legendy=center
+min=-50
+max=80
+=nogridy
+ylabel=Improvement
+xlabel=Landmarks Using limelight CDN
+# stretch it out in x direction
+xscale=1
+=table
+#   Reliance 1xEVDO	Airtel UMTS	Airtel EDGE	MTNL UMTS
+
+www.rivalpowered.com	38.0349346179	80.0955601234	53.832619547	52.043196995	
+www.space.com	36.9312898034	-117.077603997	-3.45744149512	50.5949284173	
+www.nydailynews.com	33.5031494829	74.2585923909	50.5822120709	38.3694887946	
+www.ubi.com	16.0039699395	-222.01779804	-12.3567220742	42.4898759411	
+www.smosh.com	5.60940415369	-606.892271768	-82.6240660571	15.474734421	
+=yerrorbars
+www.rivalpowered.com	5.75608618898	3.53289061151	18.4868470762	3.56363828901	
+www.space.com	19561.3772275	94.5141983499	45.1701610347	9.90585593982	
+www.nydailynews.com	18.9219220899	7.05479854523	17.604453312	9.58375297735	
+www.ubi.com	5.8318460799	92.9362184692	33.5137440996	16.4425054648	
+www.smosh.com	16.1081255111	316.801569682	79.9534783055	27.1800421187	

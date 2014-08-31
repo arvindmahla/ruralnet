@@ -1,0 +1,24 @@
+
+=cluster;inside;outside;overall
+colors=light_green,red,yellow
+=table
+title=Prevalence Parameter for Delhi
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Prevalence parameter
+xlabel=ISPs
+# stretch it out in x direction
+xscale=1
+=table
+#	inside	outside	overall
+
+reliance	0.0201406649617	
+airtel	0.0159474596974	0.0265463978574	0.0159474596974	
+mtnl	0.0107427585363	0.033106219269	0.0107427585363	
+=yerrorbars
+reliance	0.00927109974425	
+airtel	0.0192244649761	0.0308184857584	0.0192244649761	
+mtnl	0.0119626645456	0.0330898825266	0.0119626645456	

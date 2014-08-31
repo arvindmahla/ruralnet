@@ -1,0 +1,22 @@
+
+=cluster;inside;outside;overall
+colors=light_green,red,yellow
+=table
+title=Pervalence Parameter for Delhi
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Pervalance parameter
+xlabel=ISPs
+# stretch it out in x direction
+xscale=1
+=table
+#	inside	outside	overall
+
+airtel	0.195064955858	0.562443008546	0.168309293033	
+mtnl	0.819495097997	0.563143395795	0.819495097997	
+=yerrorbars
+airtel	0.0331245562896	0.300372861907	0.0534802798848	
+mtnl	0.175422797888	0.151210440063	0.175422797888	

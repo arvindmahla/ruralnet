@@ -1,0 +1,35 @@
+
+=cluster;Reliance 1xEVDO;Airtel UMTS;Airtel EDGE;MTNL UMTS
+=table
+=sortdata_ascend
+title=Improvement in Latencies for MaxCDN services
+yformat=%g%%
+rotateby=-45
+xlabelshift=0,-5
+legendx=right
+legendy=center
+min=-50
+max=80
+=nogridy
+ylabel=Improvement
+xlabel=Landmarks Using MaxCDN CDN
+# stretch it out in x direction
+xscale=1
+=table
+#   Reliance 1xEVDO	Airtel UMTS	Airtel EDGE	MTNL UMTS
+
+www.uproxx.com	22.2314957537	0.854743576151	3.55840184079	21.0516599799	
+www.kixeye.com	25.056601207	-2.68867053522	-4.39785276921	-0.00140832086983	
+www.macrumors.com	19.2407108831	8.19644983534	2.85702951873	16.3233491467	
+www.washingtontimes.com	16.0052665251	61.479756069	-1.07176519327	-10.45074048	
+www.thenextweb.com	19.0600555951	9.91628592543	14.1486075034	14.4008259484	
+www.templatemonster.com	-10.5410988782	-185.010828406	-58.0472934847	-55.5556764689	
+www.stumbleupon.com	25.0115450276	-3.25651900646	-4.36221020482	44.1840118207	
+=yerrorbars
+www.uproxx.com	2.76330624262	99.6193609292	24.9766052678	18.4032639689	
+www.kixeye.com	5.70500308786	19.1035540791	29.6074987415	3.64435984667	
+www.macrumors.com	6.27988844694	14.685871476	31.3111311476	25.5681066232	
+www.washingtontimes.com	4.48555296095	35.7377459659	34.0735177022	7.75427101318	
+www.thenextweb.com	5.17364164567	15.9829648021	33.2064533011	15.9274876662	
+www.templatemonster.com	123.646565944	61.1940780697	59.2998693959	18.9534048337	
+www.stumbleupon.com	4.74834626508	14.5548591016	28.0560132732	18.8771495394	

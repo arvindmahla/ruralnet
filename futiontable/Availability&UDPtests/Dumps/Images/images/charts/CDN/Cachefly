@@ -1,0 +1,23 @@
+
+=cluster;Reliance 1xEVDO;Airtel UMTS;Airtel EDGE;MTNL UMTS
+=table
+=sortdata_ascend
+title=Improvement in Latencies for Cachefly services
+yformat=%g%%
+rotateby=-45
+xlabelshift=0,-5
+legendx=right
+legendy=center
+min=-50
+max=80
+=nogridy
+ylabel=Improvement
+xlabel=Landmarks Using Cachefly CDN
+# stretch it out in x direction
+xscale=1
+=table
+#   Reliance 1xEVDO	Airtel UMTS	Airtel EDGE	MTNL UMTS
+
+www.arstechnica.com	42.3270753363	73.8229274647	47.3763912213	39.6480178384	
+=yerrorbars
+www.arstechnica.com	2.88770522501	4.81987571218	17.3385767072	15.8372079275	

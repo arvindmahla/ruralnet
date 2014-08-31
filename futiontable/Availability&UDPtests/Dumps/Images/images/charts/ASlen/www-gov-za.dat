@@ -1,0 +1,38 @@
+
+=cluster;reliance;airtel;idea;mtnl
+colors=light_green,red,yellow,med_blue
+=table
+title=Number of ASs on path for www.gov.za
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=#AS 
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	airtel	idea	mtnl
+
+Delhi3G	0	5.56782334385	0	7.65693430657	
+Paraswada	0	5.79487179487	6.27659574468	7.69696969697	
+Jaipur	0	0	6.0	0	
+Delhi	3.32432432432	5.76	0	6.025	
+Samanapur	4.78048780488	0	0	7.68539325843	
+Lamta	4.82222222222	5.95412844037	0	7.74747474747	
+Sikar	0	5.97435897436	7.0	7.95652173913	
+Dindori	0	5.74662162162	6.69278350515	3.6064516129	
+Hanumanpura	0	6.0	6.96923076923	8.0	
+Amarpur	0	6.0	0	7.7	
+=yerrorbars
+Delhi3G	0	1.07126476462	0	1.17829905162	
+Paraswada	0	0.896702997438	0.447314809396	0.45956820873	
+Jaipur	0	0	0.0	0	
+Delhi	1.94594594595	1.17575507654	0	1.33205668048	
+Samanapur	0.549006276947	0	0	0.510463671533	
+Lamta	0.382325567424	0.342289139563	0	0.434460872073	
+Sikar	0	0.158061897512	0.0	0.203931119992	
+Dindori	0	0.972591657637	0.621313444591	2.31543704282	
+Hanumanpura	0	0.0	0.17269187939	0.0	
+Amarpur	0	0.0	0	0.458257569496	

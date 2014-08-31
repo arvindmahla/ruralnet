@@ -1,0 +1,37 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=Last Hop Latency for www.licindia.com
+yformat=%gms
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=latency in ms
+xlabel=Uraban/SemiUrban Location																								Rural Location				
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	0	0	466.988738938	753.859070248	
+Jaipur	0	0	0	0	
+Dindori	0	190.279	165.443	1053.55933333	
+Delhi	282.026851852	0	257.74764881	423.7812	
+Paraswada	0	308.993686275	758.56476	710.678545455	
+Samanapur	315.225438095	0	0	719.788	
+Lamta	438.272482759	0	740.616333333	709.742	
+Sikar	0	344.106965517	319.971311377	321.730701389	
+Hanumanpura	0	329.907571429	464.386117284	694.027606061	
+Amarpur	0	0	0	0	
+=yerrorbars
+Delhi3G	0	0	949.883763441	926.912498198	
+Paraswada	0	83.7249879984	469.178538203	19.43731298	
+Sikar	0	106.147610234	189.100742877	144.252543917	
+Delhi	245.533907315	0	86.7539635972	308.625888414	
+Samanapur	121.290495736	0	0	100.618396767	
+Lamta	353.94898144	0	48.3237269143	30.3890562155	
+Dindori	0	0.0	10.561439359	342.164929788	
+Hanumanpura	0	146.424546595	272.35377269	241.936430563	
+Amarpur	0	0	0	0	

@@ -1,0 +1,27 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=Median Duration between Traceroutes for www.spoj.pl
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Duration in hrs
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	1.49972222222	0	1.00027777778	1.00027777778	
+Paraswada	0	4.4975	4.50416666667	4.53708333333	
+Jaipur	0	0	0	0	
+Delhi	3.07833333333	0	3.00708333333	3.02777777778	
+Samanapur	3.00347222222	0	0	3.00027777778	
+Lamta	4.52444444444	0	4.525	4.50916666667	
+Sikar	0	4.71708333333	4.50083333333	4.53	
+Dindori	0	4.49861111111	4.49944444444	4.51416666667	
+Hanumanpura	0	4.5	4.52444444444	4.50222222222	
+Amarpur	0	5.25013888889	4.50305555556	4.50111111111	

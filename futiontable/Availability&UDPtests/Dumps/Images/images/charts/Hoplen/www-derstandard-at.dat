@@ -1,0 +1,38 @@
+
+=cluster;reliance;airtel;idea;mtnl
+colors=light_green,red,yellow,med_blue
+=table
+title=Hop length for www.derstandard.at
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Hop length
+xlabel=Uraban/SemiUrban Location																								Rural Location				
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	airtel	idea	mtnl
+
+Delhi3G	0	11.2984126984	0	13.262086514	
+Jaipur	0	0	12.0	0	
+Dindori	0	11.05	12.3402489627	17.4640522876	
+Delhi	10.0	11.0833333333	0	13.725	
+Paraswada	0	11.0128205128	12.1182795699	17.5588235294	
+Samanapur	10.0215633423	0	0	16.5	
+Lamta	10.0444444444	11.0545454545	0	16.02	
+Sikar	0	11.1538461538	12.3846153846	16.1818181818	
+Hanumanpura	0	11.2608695652	12.2153846154	16.6666666667	
+Amarpur	0	11.0	0	16.55	
+=yerrorbars
+Delhi3G	0	0.939350005512	0	0.876618951659	
+Jaipur	0	0	0.0	0	
+Dindori	0	0.409267638594	0.8763835181	2.38466271382	
+Delhi	0.0	0.399652626943	0	2.12117302453	
+Paraswada	0	0.112499543428	0.583822449914	1.41818393544	
+Samanapur	0.145252761028	0	0	0.879049072992	
+Lamta	0.294811092476	0.400825594274	0	1.20813906484	
+Sikar	0	0.360801212294	0.68370726287	0.95994145827	
+Hanumanpura	0	0.486101734239	0.83190805136	1.33333333333	
+Amarpur	0	0.0	0	1.02347447452	

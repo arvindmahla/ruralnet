@@ -1,0 +1,26 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=Median Duration between Traceroutes for www.licindia.com
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Duration in hrs
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	0	3.0075	1.00625	1.00166666667	
+Paraswada	0	3.01805555556	2.99777777778	4.32222222222	
+Sikar	0	5.69708333333	4.49972222222	4.50680555556	
+Delhi	3.00361111111	0	2.87833333333	2.72527777778	
+Samanapur	3.00083333333	4.50138888889	0	3.00069444444	
+Lamta	4.50055555556	0	4.50083333333	4.5	
+Dindori	0	4.51138888889	8.99013888889	4.51902777778	
+Hanumanpura	0	4.50027777778	4.50861111111	5.89638888889	
+Amarpur	0	4.50666666667	9.74916666667	4.505	

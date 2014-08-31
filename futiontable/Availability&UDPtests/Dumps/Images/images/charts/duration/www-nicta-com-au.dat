@@ -1,0 +1,28 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=Median Duration between Traceroutes for www.nicta.com.au
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Duration in hrs
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	1.49972222222	3.00861111111	0.903055555556	0.795694444444	
+Ukwa	0	4.50333333333	4.51486111111	4.50833333333	
+Paraswada	0	4.5	4.50027777778	4.50777777778	
+Jaipur	0	4.52222222222	4.50027777778	4.68444444444	
+Delhi	2.99972222222	0	2.99722222222	2.99972222222	
+Samanapur	3.01819444444	4.50055555556	0	3.0025	
+Lamta	4.50694444444	0	4.51027777778	4.50333333333	
+Sikar	0	4.72527777778	4.5	4.52361111111	
+Dindori	0	4.50083333333	4.50097222222	4.51472222222	
+Hanumanpura	0	4.5	4.52166666667	5.71333333333	
+Amarpur	0	4.50625	4.50777777778	4.50361111111	

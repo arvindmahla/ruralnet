@@ -1,0 +1,24 @@
+
+=cluster;inside;outside;overall
+colors=light_green,red,yellow
+=table
+title=Prevalence Parameter for Hanumanpura
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Prevalence parameter
+xlabel=ISPs
+# stretch it out in x direction
+xscale=1
+=table
+#	inside	outside	overall
+
+idea	0.0408068944931	0.0331112124872	0.0256522344713	
+airtel	0.0147401933295	0.0264242327775	0.0147401933295	
+mtnl	0.073443149768	0.0853773520226	0.0470302317847	
+=yerrorbars
+idea	0.021855851675	0.0235071905732	0.015664124574	
+airtel	0.00552411401194	0.0172297147779	0.00552411401194	
+mtnl	0.0856849559814	0.0854572720748	0.0478962710569	

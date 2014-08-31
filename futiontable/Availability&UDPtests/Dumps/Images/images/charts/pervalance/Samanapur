@@ -1,0 +1,22 @@
+
+=cluster;inside;outside;overall
+colors=light_green,red,yellow
+=table
+title=Prevalence Parameter for Samanapur
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Prevalence parameter
+xlabel=ISPs
+# stretch it out in x direction
+xscale=1
+=table
+#	inside	outside	overall
+
+mtnl	0.031535329235	0.0352401586483	0.023460498299	
+reliance	0.0229941291585	
+=yerrorbars
+mtnl	0.0396907124349	0.0306538725369	0.0240077744016	
+reliance	0.0127201565558	

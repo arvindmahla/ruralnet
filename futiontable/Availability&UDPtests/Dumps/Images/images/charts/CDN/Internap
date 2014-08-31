@@ -1,0 +1,31 @@
+
+=cluster;Reliance 1xEVDO;Airtel UMTS;Airtel EDGE;MTNL UMTS
+=table
+=sortdata_ascend
+title=Improvement in Latencies for Internap services
+yformat=%g%%
+rotateby=-45
+xlabelshift=0,-5
+legendx=right
+legendy=center
+min=-50
+max=80
+=nogridy
+ylabel=Improvement
+xlabel=Landmarks Using Internap CDN
+# stretch it out in x direction
+xscale=1
+=table
+#   Reliance 1xEVDO	Airtel UMTS	Airtel EDGE	MTNL UMTS
+
+wwww.localhotclassifieds.com	-10.0863755071	-1.40084791592	
+www.ifood.tv	16.0055515291	5.92534879068	-10.1583256226	5.16614601283	
+www.bostonmagazine.com	28.0129660929	45.3341595026	14.0848734201	18.9921178493	
+www.internationaltaxreview.com	22.5635742041	52.6501878418	23.8240430073	25.2505567062	
+www.localhotpersonals.com	15.2117183611	45.2860655582	29.9928577473	32.6220447263	
+=yerrorbars
+wwww.localhotclassifieds.com	24.7131128095	38.3394061645	
+www.ifood.tv	5.38024807518	40.3022849092	32.0440771787	31.81903638	
+www.bostonmagazine.com	8.47670276547	27.0076425902	26.6674905215	5.98752109055	
+www.internationaltaxreview.com	4010.12991808	19.4666116381	27.2068703258	237.408840624	
+www.localhotpersonals.com	11.6315708501	15.2649668468	24.8601134687	6.75223256889	

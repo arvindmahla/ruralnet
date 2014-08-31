@@ -1,0 +1,38 @@
+
+=cluster;reliance;airtel;idea;mtnl
+colors=light_green,red,yellow,med_blue
+=table
+title=Number of ASs on path for www.nation.co.ke
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=#AS 
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	airtel	idea	mtnl
+
+Delhi3G	0	3.77848101266	0	4.23453608247	
+Paraswada	0	3.1125	5.0	4.97058823529	
+Jaipur	0	0	5.0	0	
+Delhi	2.8125	3.75	0	3.7	
+Samanapur	4.01081081081	0	0	5.16853932584	
+Lamta	4.33333333333	3.94545454545	0	5.67	
+Sikar	0	3.94871794872	5.0	4.40909090909	
+Dindori	0	3.28104575163	4.98140495868	3.19736842105	
+Hanumanpura	0	3.97826086957	4.89230769231	5.44444444444	
+Amarpur	0	3.0	0	5.2	
+=yerrorbars
+Delhi3G	0	0.601931676613	0	0.932872208813	
+Paraswada	0	0.353332350628	0.0	0.663559657216	
+Jaipur	0	0	0.0	0	
+Delhi	1.6092991487	0.829156197589	0	1.16619037897	
+Samanapur	0.705110220935	0	0	0.604030564302	
+Lamta	0.557773351023	0.264106164479	0	0.491019347888	
+Sikar	0	0.220572442745	0.0	1.48198548972	
+Dindori	0	0.559616072172	0.408668075997	1.73978021027	
+Hanumanpura	0	0.254449998059	0.309991410456	0.496903995	
+Amarpur	0	0.0	0	1.07703296143	

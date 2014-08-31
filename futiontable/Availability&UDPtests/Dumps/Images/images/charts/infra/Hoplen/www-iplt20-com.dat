@@ -1,0 +1,40 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=#hops inside ISP network for www.iplt20.com
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Hop length
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	0	0	6.39158576052	8.88108108108	
+Ukwa	0	0	0	0	
+Paraswada	0	5.0	6.0	8.0	
+Jaipur	0	5.24060150376	6.11538461538	7.78181818182	
+Delhi	3.0	0	6.09433962264	8.82142857143	
+Samanapur	3.0	0	0	8.0	
+Lamta	3.0	0	6.0	8.0	
+Sikar	0	5.0487804878	6.80701754386	7.64705882353	
+Dindori	0	5.11764705882	5.78571428571	3.125	
+Hanumanpura	0	5.11538461538	6.36538461538	8.13846153846	
+Amarpur	0	5.0	6.0	8.0	
+=yerrorbars
+Delhi3G	0	0	1.70057873547	0.629816720589	
+Ukwa	0	0	0	0	
+Paraswada	0	0.0	0.0	0.0	
+Jaipur	0	0.727033067888	0.576923076923	0.985179431574	
+Delhi	0.0	0	0.350963683731	0.382993046242	
+Samanapur	0.0	0	0	0.0	
+Lamta	0.0	0	0.0	0.0	
+Sikar	0	0.854006897562	0.759468800769	0.762440082166	
+Dindori	0	0.322189739709	0.900680015208	0.330718913883	
+Hanumanpura	0	0.697629121047	0.941129561788	0.698942565637	
+Amarpur	0	0.0	0.0	0.0	

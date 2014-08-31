@@ -1,0 +1,28 @@
+
+=cluster;reliance;idea;airtel;mtnl
+colors=light_green,yellow,red,med_blue
+=table
+title=Median Duration between Traceroutes for www.timesofindia.com
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Duration in hrs
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	idea	airtel	mtnl
+
+Delhi3G	0	3.0075	1.00694444444	1.00138888889	
+Ukwa	0	4.50361111111	4.515	4.50638888889	
+Paraswada	0	4.50097222222	4.50055555556	4.50555555556	
+Jaipur	0	4.51083333333	4.50055555556	4.62	
+Delhi	3.00027777778	0	3.0	3.0	
+Samanapur	4.50305555556	4.50069444444	0	4.50125	
+Lamta	4.50444444444	0	4.505	4.50194444444	
+Sikar	0	4.72055555556	4.49972222222	4.5075	
+Dindori	0	4.50083333333	4.50416666667	4.50805555556	
+Hanumanpura	0	4.50027777778	4.50861111111	5.88277777778	
+Amarpur	0	4.5025	4.51277777778	4.50583333333	

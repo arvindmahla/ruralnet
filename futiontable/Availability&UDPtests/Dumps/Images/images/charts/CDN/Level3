@@ -1,0 +1,33 @@
+
+=cluster;Reliance 1xEVDO;Airtel UMTS;Airtel EDGE;MTNL UMTS
+=table
+=sortdata_ascend
+title=Improvement in Latencies for Level3 services
+yformat=%g%%
+rotateby=-45
+xlabelshift=0,-5
+legendx=right
+legendy=center
+min=-50
+max=80
+=nogridy
+ylabel=Improvement
+xlabel=Landmarks Using Level3 CDN
+# stretch it out in x direction
+xscale=1
+=table
+#   Reliance 1xEVDO	Airtel UMTS	Airtel EDGE	MTNL UMTS
+
+www.cwtv.com	17.7940405307	8.2327321325	0.973665778259	-7.06830464491	
+www.bikeradar.com	0.00661897016619	2.86780371247	-5.36850341891	1.20131968398	
+www.bearingarms.com	23.5836759947	66.8937364419	35.5317690946	-13.2825671643	
+wwww.pizap.com	18.6959739161	13.9062366167	8.15729433795	8.65788832952	
+www.musicradar.com	-4.51257019562	4.92625048923	-3.46042638615	-4.67806864456	
+www.pgeveryday.com	27.5293200401	58.6998588522	29.0093435354	10.0317869996	
+=yerrorbars
+www.cwtv.com	5.67895918906	27.3144507319	28.7919181245	3.56117118828	
+www.bikeradar.com	9.19552768295	62.5523074929	30.17817618	11.2233589572	
+www.bearingarms.com	13.65926847	57.3491370066	35.6542261081	25.8730694307	
+wwww.pizap.com	23.8987142057	53.7093915341	32.0262436052	93.6196093428	
+www.musicradar.com	8.96849492501	45.7676054556	30.610249133	8.01826097389	
+www.pgeveryday.com	8.64293305917	6.09400170789	24.566772977	24.0909510719	

@@ -1,0 +1,38 @@
+
+=cluster;reliance;airtel;idea;mtnl
+colors=light_green,red,yellow,med_blue
+=table
+title=#hops inside ISP network for www.baidu.com
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Hop length
+xlabel=Locations
+# stretch it out in x direction
+xscale=1
+=table
+#	reliance	airtel	idea	mtnl
+
+Delhi3G	0	6.41640378549	0	10.4097938144	
+Paraswada	0	6.8961038961	8.0	15.4242424242	
+Jaipur	0	0	17.0	0	
+Delhi	3.0	6.91304347826	0	13.0769230769	
+Samanapur	3.0	0	0	12.4111111111	
+Lamta	3.0	6.92452830189	0	14.2371134021	
+Sikar	0	7.10256410256	14.9411764706	11.3111111111	
+Dindori	0	6.71525423729	11.1784232365	6.60431654676	
+Hanumanpura	0	7.21739130435	11.703125	12.7777777778	
+Amarpur	0	7.0	0	16.7	
+=yerrorbars
+Delhi3G	0	1.67655450754	0	2.95317528897	
+Paraswada	0	0.694774850654	5.11568302047	5.46631726358	
+Jaipur	0	0	0.0	0	
+Delhi	0.0	0.281771334713	0	4.2085664493	
+Samanapur	0.0	0	0	4.54335765326	
+Lamta	0.0	0.327889569754	0	4.9487542864	
+Sikar	0	0.495873836047	5.90583548142	3.52024129364	
+Dindori	0	1.2379334282	5.98522655652	5.39733308116	
+Hanumanpura	0	0.507039295204	6.50643836783	4.68514858718	
+Amarpur	0	0.0	0	4.06324993078	

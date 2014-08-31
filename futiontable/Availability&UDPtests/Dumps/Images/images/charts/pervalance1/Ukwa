@@ -1,0 +1,24 @@
+
+=cluster;inside;outside;overall
+colors=light_green,red,yellow
+=table
+title=Pervalence Parameter for Ukwa
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Pervalance parameter
+xlabel=ISPs
+# stretch it out in x direction
+xscale=1
+=table
+#	inside	outside	overall
+
+airtel	0.217350293704	0.462613514228	0.168327301771	
+mtnl	0.133077982328	0.425995399203	0.0322918891064	
+idea	0.0570420629639	0.243143520459	0.0160798519937	
+=yerrorbars
+airtel	0.0382481542015	0.301624205718	0.0755973448035	
+mtnl	0.0717219233439	0.274164288598	0.0432590670728	
+idea	0.0298076351434	0.214249506036	0.0170590161233	

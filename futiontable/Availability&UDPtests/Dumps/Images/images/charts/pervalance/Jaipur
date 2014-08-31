@@ -1,0 +1,24 @@
+
+=cluster;inside;outside;overall
+colors=light_green,red,yellow
+=table
+title=Prevalence Parameter for Jaipur
+yformat=%g
+rotateby=-45
+legendx=right
+legendy=center
+=nogridy
+ylabel=Prevalence parameter
+xlabel=ISPs
+# stretch it out in x direction
+xscale=1
+=table
+#	inside	outside	overall
+
+idea	0.373029164014	0.363793628402	0.358481495976	
+airtel	0.0769230769231	0.0948717948718	0.0589743589744	
+mtnl	0.0335241030156	0.0467708562624	0.0215888913346	
+=yerrorbars
+idea	0.458119877812	0.464799796305	0.468548983827	
+airtel	0.0198614530576	0.0593632661682	0.0237785089629	
+mtnl	0.00607295540045	0.0314973655296	0.00729185195389	
